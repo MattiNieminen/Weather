@@ -1,4 +1,4 @@
-(ns clj-web-example.component.mongodb
+(ns weather.component.mongodb
   (:require [com.stuartsierra.component :as component]
             [clojure.tools.logging :as log]
             [monger.core :as mg]

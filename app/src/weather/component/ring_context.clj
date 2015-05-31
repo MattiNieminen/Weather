@@ -1,4 +1,4 @@
-(ns clj-web-example.component.ring-context
+(ns weather.component.ring-context
   (:require [com.stuartsierra.component :as component]))
 
 (defn wrap-database [handler database]

@@ -1,4 +1,4 @@
-(ns clj-web-example.utils
+(ns weather.utils
   (:require [schema.core :as s])
   (:import [org.joda.time DateTime]
            [org.joda.time DateTimeZone]))

@@ -1,9 +1,9 @@
-(ns clj-web-example.ui.view.new-message
+(ns weather.ui.view.new-message
   (:require [reagent.core :as reagent]
-            [clj-web-example.ui.utils :as utils]
-            [clj-web-example.ui.route :as route]
-            [clj-web-example.localization :refer [tr]]
-            [clj-web-example.ui.view.view :as view]))
+            [weather.ui.utils :as utils]
+            [weather.ui.route :as route]
+            [weather.localization :refer [tr]]
+            [weather.ui.view.view :as view]))
 
 (defonce new-message (reagent/atom nil))
 

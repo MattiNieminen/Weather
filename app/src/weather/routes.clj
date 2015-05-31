@@ -1,13 +1,13 @@
-(ns clj-web-example.routes
+(ns weather.routes
   (:require [compojure.api.sweet :refer :all]
             [schema.core :as s]
-            [clj-web-example.ui.index :as index]
+            [weather.ui.index :as index]
             [compojure.route :as route]
-            [clj-web-example.message-api :as message-api]))
+            [weather.message-api :as message-api]))
 
 (defapi app
   (swagger-ui "/swagger-ui")
-  (swagger-docs {:info {:title "clj-web-example API"
+  (swagger-docs {:info {:title "weather API"
                         :description "Example API for example application."}})
   
   (GET* "/" []

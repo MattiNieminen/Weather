@@ -1,4 +1,4 @@
-(ns clj-web-example.ui.index
+(ns weather.ui.index
   (:require [clojure.java.io :as io]
             [hiccup.page :as page])
   (:import [org.apache.commons.codec.digest DigestUtils]))
@@ -16,7 +16,7 @@
   []
   (page/html5
     [:head
-     [:title "clj-web-example"]
+     [:title "weather"]
      [:meta {:charset "utf-8"}]
      [:meta {:http-equiv "X-UA-Compatible" :content "IE=edge"}]
      [:meta {:name "viewport"

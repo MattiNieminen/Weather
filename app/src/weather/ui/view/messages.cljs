@@ -1,8 +1,8 @@
-(ns clj-web-example.ui.view.messages
+(ns weather.ui.view.messages
   (:require [reagent.core :as reagent]
-            [clj-web-example.ui.utils :as utils]
-            [clj-web-example.ui.route :as route]
-            [clj-web-example.ui.view.view :as view]))
+            [weather.ui.utils :as utils]
+            [weather.ui.route :as route]
+            [weather.ui.view.view :as view]))
 
 (defonce messages-state (reagent/atom nil))
 

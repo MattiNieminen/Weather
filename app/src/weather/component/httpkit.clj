@@ -1,4 +1,4 @@
-(ns clj-web-example.component.httpkit
+(ns weather.component.httpkit
   (:require [com.stuartsierra.component :as component]
             [clojure.tools.logging :as log]
             [org.httpkit.server :as httpkit]

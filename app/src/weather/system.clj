@@ -1,8 +1,8 @@
-(ns clj-web-example.system
-  (:require [clj-web-example.component.config :as config]
-            [clj-web-example.component.mongodb :as mongodb]
-            [clj-web-example.component.ring-context :as ring-context]
-            [clj-web-example.component.httpkit :as httpkit]
+(ns weather.system
+  (:require [weather.component.config :as config]
+            [weather.component.mongodb :as mongodb]
+            [weather.component.ring-context :as ring-context]
+            [weather.component.httpkit :as httpkit]
             [com.stuartsierra.component :as component]))
 
 (defn system
