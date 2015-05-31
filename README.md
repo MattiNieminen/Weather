@@ -1,8 +1,8 @@
 # Weather
 
-A Clojure/ClojureScript -based project that show the weather from Wunderground
-API. Uses Vagrant for setting up MongoDB for development and Docker for
-production deployment.
+An application written in Clojure/ClojureScript that shows the weather from
+Wunderground. Uses Vagrant for setting up MongoDB for development and Docker
+for production deployment.
 
 ## Setting up for the development
 
