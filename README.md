@@ -1,37 +1,47 @@
-# clj-web-example
+# Weather
 
-A sample project with browser-based user interface written using Clojure,
-ClojureScript and MongoDB. Uses Vagrant for development environment and
-Docker for production deployment.
+A Clojure/ClojureScript -based project that show the weather from Wunderground
+API. Uses Vagrant for setting up MongoDB for development and Docker for
+production deployment.
 
-The app itself is ugly and does nothing interesting. However, the code is meant
-to be a starting point or a pony for developing new apps. The Git log is even
-more important than the code itself!
+## Setting up for the development
 
-Why not develop a Leiningen template? Because the code contains example
-business logic that should not be copied to new projects. Also, Vagrant and
-Docker configurations should probably not be packaged into Leiningen templates.
-
-## Usage
-
-1. Clone the repository
+1. Install Git
 2. Install VirtualBox
 3. Install Vagrant
-4. Explore the code by using the following commands in the cloned directory.
+4. Install Leiningen
+5. Clone the repository to the server
+6. Run the following commands in the cloned directory
 
 ```bash
 # Download, install and run a virtualization environment for MongoDB.
+# Takes a while... make sure that Intel Virtualization techonology VT-d is on
 vagrant up
 
-# Start the application with figwheel
+# In development, the above command starts MongoDB inside a Docker container
+# running inside a proxy virtual machine. The application should be run at
+# the host machine by running:
 lein develop
 
-# Build an uberjar
+# The above command calls ClojureScript compiler, starts Figwheel and the
+# application itself. If you need an uberjar, then run:
 lein build
 
-# Run test
+# Tests are run normally.
 lein test
 ```
+
+## Installation to production (uses Docker, so Linux-servers only)
+
+1. Install Git
+2. Install Docker
+3. ??? (TODO more?)
+
+```bash
+# TODO Docker commands
+```
+
+Let me know if you need instructions for production Windows-servers!
 
 ## License
 
