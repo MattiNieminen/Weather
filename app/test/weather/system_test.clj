@@ -1,6 +1,6 @@
-(ns clj-web-example.system-test
+(ns weather.system-test
   (:require [clojure.test :refer :all]
-            [clj-web-example.test-utils :as test-utils]))
+            [weather.test-utils :as test-utils]))
 
 (deftest system-test
   (testing "System contains the required components."

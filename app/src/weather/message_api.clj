@@ -1,6 +1,6 @@
-(ns clj-web-example.message-api
+(ns weather.message-api
   (:require [schema.core :as s]
-            [clj-web-example.utils :as utils]
+            [weather.utils :as utils]
             [monger.collection :as mc]
             [ring.util.response :as response]
             [schema.coerce :as coerce]))

@@ -1,4 +1,4 @@
-(ns clj-web-example.localization)
+(ns weather.localization)
 
 (def dictionary {:title "Hello World!"
                  :not-found "The page you are looking for does not exist."

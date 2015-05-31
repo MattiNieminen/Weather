@@ -1,5 +1,5 @@
-(ns clj-web-example.ui.view.navigation
-  (:require [clj-web-example.localization :refer [tr]]))
+(ns weather.ui.view.navigation
+  (:require [weather.localization :refer [tr]]))
 
 (defn navigation-link
   [content href]

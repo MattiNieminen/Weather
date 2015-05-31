@@ -1,5 +1,5 @@
-(ns clj-web-example.ui.view.view
-  (:require [clj-web-example.localization :refer [tr]]))
+(ns weather.ui.view.view
+  (:require [weather.localization :refer [tr]]))
 
 (defmulti render-view :id)
 

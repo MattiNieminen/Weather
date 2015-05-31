@@ -1,10 +1,10 @@
-(ns ^:figwheel-always clj-web-example.ui.main
-  (:require [clj-web-example.localization :refer [tr]]
+(ns ^:figwheel-always weather.ui.main
+  (:require [weather.localization :refer [tr]]
             [reagent.core :as reagent]
-            [clj-web-example.ui.view.navigation :as navigation]
-            [clj-web-example.ui.view.view :as view]
-            [clj-web-example.ui.view.views]
-            [clj-web-example.ui.route :as route]))
+            [weather.ui.view.navigation :as navigation]
+            [weather.ui.view.view :as view]
+            [weather.ui.view.views]
+            [weather.ui.route :as route]))
 
 (defn main-view
   []

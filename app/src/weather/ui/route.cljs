@@ -1,4 +1,4 @@
-(ns clj-web-example.ui.route
+(ns weather.ui.route
   (:require [reagent.core :as reagent]
             [secretary.core :as secretary :refer-macros [defroute]]))
 

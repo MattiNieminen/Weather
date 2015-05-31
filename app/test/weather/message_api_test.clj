@@ -1,8 +1,8 @@
-(ns clj-web-example.message-api-test
+(ns weather.message-api-test
   (:require [clojure.test :refer :all]
-            [clj-web-example.test-utils :as test-utils]
+            [weather.test-utils :as test-utils]
             [monger.collection :as mc]
-            [clj-web-example.message-api :refer :all]))
+            [weather.message-api :refer :all]))
 
 (use-fixtures :each test-utils/database-fixture)
 

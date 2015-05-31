@@ -1,8 +1,8 @@
-(ns clj-web-example.main
+(ns weather.main
   (:gen-class)
-  (:require [clj-web-example.system :as system]
+  (:require [weather.system :as system]
             [com.stuartsierra.component :as component]
-            [clj-web-example.routes :as routes]))
+            [weather.routes :as routes]))
 
 (defn -main
   [& args]

@@ -1,7 +1,7 @@
-(ns clj-web-example.test-utils
+(ns weather.test-utils
   (:require [com.stuartsierra.component :as component]
-            [clj-web-example.system :as system]
-            [clj-web-example.routes :as routes]
+            [weather.system :as system]
+            [weather.routes :as routes]
             [monger.db :as db]
             [org.httpkit.client :as http]
             [clojure.data.json :as json]))
