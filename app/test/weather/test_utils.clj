@@ -18,8 +18,3 @@
   (let [response @(http/get url)
         body (json/read-json (:body response))]
     (assoc response :body body)))
-
-(defn http-post
-  [url body]
-  @(http/post url {:body (json/write-str body)
-                   :headers {"Content-Type" "application/json"}}))
