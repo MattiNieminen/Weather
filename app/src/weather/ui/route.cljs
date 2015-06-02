@@ -12,11 +12,9 @@
 ;
 (secretary/set-config! :prefix "#")
 
-(secretary/defroute "/" []
-  (reset! route {:id "messages"}))
-
-(secretary/defroute "/new" []
-  (reset! route {:id "new-message"}))
+(secretary/defroute "/:city/:date" [city date]
+  (reset! route {:city city
+                 :date date}))
 
 (secretary/defroute "*" []
   (reset! route nil))
