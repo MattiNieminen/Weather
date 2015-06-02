@@ -9,17 +9,33 @@
 (defonce state (reagent/atom nil))
 
 ;
-; Connecting to backend
+; Connecting to backend (history)
 ;
-(defn api-route
+(defn history-api-route
   [city date]
   (str "/api/weather/" city "/" date))
 
-(defn get-weather-from-backend
+(defn get-weather-history-from-backend
   [city date]
-  (utils/http-get! (api-route city date) #(reset! state {:city city
-                                                         :date date
-                                                         :weather-data %})))
+  (utils/http-get!
+    (history-api-route city date)
+    #(reset! state {:city city
+                    :date date
+                    :weather-history-data %})))
+
+;
+; Connecting to backend (current)
+;
+(defn current-api-route
+  [city]
+  (str "/api/weather/" city))
+
+(defn get-current-weather-from-backend
+  [city]
+  (utils/http-get!
+    (current-api-route city)
+    #(reset! state {:city city
+                    :current-weather-data %})))
 
 ;
 ; Routes
@@ -27,7 +43,10 @@
 (secretary/set-config! :prefix "#")
 
 (secretary/defroute "/:city/:date" [city date]
-  (reset! state (get-weather-from-backend city date)))
+  (reset! state (get-weather-history-from-backend city date)))
+
+(secretary/defroute "/:city" [city]
+  (reset! state (get-current-weather-from-backend city)))
 
 (secretary/defroute "*" []
   (reset! state nil))

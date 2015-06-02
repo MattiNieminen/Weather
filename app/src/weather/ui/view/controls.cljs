@@ -11,9 +11,21 @@
   [date]
   (str (.getFullYear date) "-" (+ 1 (.getMonth date)) "-" (.getDate date)))
 
+(defn current-date?
+  [date]
+  (let [current-date (js/Date.)]
+    (if
+      (and (= (.getFullYear date) (.getFullYear current-date))
+           (= (.getMonth date) (.getMonth current-date))
+           (= (.getDate date) (.getDate current-date)))
+      true)))
+
 (defn route-from-atoms
   []
-  (str "#/" @city "/" (format-date @date)))
+  (if
+    (current-date? @date)
+    (str "#/" @city)
+    (str "#/" @city "/" (format-date @date))))
 
 (defn city-select
   []
