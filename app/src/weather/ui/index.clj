@@ -22,7 +22,8 @@
      [:meta {:http-equiv "X-UA-Compatible" :content "IE=edge"}]
      [:meta {:name "viewport"
              :content "width=device-width, initial-scale=1.0"}]
-     (page/include-css (resource-with-checksum "css/style.css"))]
+     (page/include-css (resource-with-checksum "css/style.css"))
+     (page/include-css (resource-with-checksum "css/pikaday.css"))]
     [:body
      [:div#app]
      (page/include-js (resource-with-checksum "js/main.js"))]))
