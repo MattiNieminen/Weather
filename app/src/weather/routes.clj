@@ -22,7 +22,7 @@
   (context* "/api" []
     :tags ["API"]
     
-    (GET* "/current/:city" []
+    (GET* "/weather/:city" []
       :summary "Gets current weather either from database (if exists) or
                 Wunderground."
       :path-params [city :- s/Keyword]
