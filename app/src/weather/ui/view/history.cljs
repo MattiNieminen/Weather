@@ -1,4 +1,4 @@
-(ns weather.ui.view.weather
+(ns weather.ui.view.history
   (:require [reagent.core :as reagent]
             [weather.localization :refer [tr]]
             [weather.ui.utils :as utils]))

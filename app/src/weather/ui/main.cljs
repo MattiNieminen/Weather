@@ -2,7 +2,7 @@
   (:require [weather.localization :refer [tr]]
             [reagent.core :as reagent]
             [weather.ui.view.controls :as controls]
-            [weather.ui.view.weather :as weather]
+            [weather.ui.view.history :as history]
             [weather.ui.state :as state]))
 
 (defn main-view
@@ -10,7 +10,7 @@
   [:div
    [:h1 (tr :title)]
    [controls/controls]
-   [weather/weather-view @state/state]])
+   [history/weather-view @state/state]])
 
 (defn init!
   []

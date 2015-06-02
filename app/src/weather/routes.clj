@@ -3,7 +3,7 @@
             [schema.core :as s]
             [weather.ui.index :as index]
             [compojure.route :as route]
-            [weather.weather-api :as weather-api])
+            [weather.weather-history-api :as history-api])
   (:import [org.joda.time LocalDate]))
 
 (defapi app
@@ -22,7 +22,8 @@
     :tags ["API"]
     
     (GET* "/weather/:city/:date" []
-      :summary "Gets weather either from database (if exists) or Wunderground."
+      :summary "Gets weather history either from database (if exists) or
+                Wunderground."
       :path-params [city :- s/Keyword, date :- LocalDate]
-      :return weather-api/Weather
-      weather-api/get-weather)))
+      :return history-api/WeatherHistory
+      history-api/get-weather)))
