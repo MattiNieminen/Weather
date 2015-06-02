@@ -2,6 +2,7 @@
   (:require [weather.localization :refer [tr]]
             [reagent.core :as reagent]
             [weather.ui.view.controls :as controls]
+            [weather.ui.view.current :as current]
             [weather.ui.view.history :as history]
             [weather.ui.state :as state]))
 
@@ -10,7 +11,9 @@
   [:div
    [:h1 (tr :title)]
    [controls/controls]
-   [history/weather-view @state/state]])
+   (if (contains? @state/state :current-weather-data)
+     [current/weather-view @state/state]
+     [history/weather-view @state/state])])
 
 (defn init!
   []
