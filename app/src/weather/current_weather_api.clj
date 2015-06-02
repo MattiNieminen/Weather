@@ -5,8 +5,6 @@
             [weather.utils :as utils]
             [ring.util.response :as response]))
 
-(def apikey "ca497f499aa559d7")
-
 (def CurrentWeather {:temp_c s/Num
                      :weather s/Str})
 
@@ -39,9 +37,9 @@
                   "/conditions/q/" city ".xml")))
 
 (defn get-weather
-  [{params :params}]
+  [{params :params wg-apikey :wg-apikey}]
   (let [city (:city params)
-        wg-data (get-weather-from-wg apikey city)]
+        wg-data (get-weather-from-wg wg-apikey city)]
     (if (wg-xml-has-data? wg-data)
       (response/response (->CurrentWeather wg-data))
       (response/status (response/response {}) 400))))

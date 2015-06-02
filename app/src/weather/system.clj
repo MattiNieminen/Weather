@@ -11,5 +11,6 @@
     :config (config/new-config profile)
     :mongodb (component/using (mongodb/new-mongodb) [:config])
     :ring-context (component/using
-                    (ring-context/new-ring-context ring-handler) [:mongodb])
+                    (ring-context/new-ring-context ring-handler)
+                    [:config :mongodb])
     :httpkit (component/using (httpkit/new-httpkit) [:config :ring-context])))
