@@ -1,12 +1,71 @@
 (ns weather.weather-api
   (:require [schema.core :as s]
-            [weather.utils :as utils]
-            [monger.collection :as mc]
-            [ring.util.response :as response]
-            [schema.coerce :as coerce]))
+            [clojure.xml :as xml]
+            [clojure.zip :as zip]
+            [clojure.string :as str]
+            [ring.util.response :as response]))
 
-(def Weather {:maxtempm s/Int})
+(def apikey "ca497f499aa559d7")
+
+(def Weather {:fog s/Num
+              :rain s/Num
+              :snow s/Num
+              :hail s/Num
+              :meantempm s/Num
+              :maxtempm s/Num
+              :mintempm s/Num})
+
+(defn wg-xml-has-data?
+  [wg-data]
+  (not (empty? (-> wg-data
+                 zip/xml-zip
+                 zip/down
+                 zip/right
+                 zip/right
+                 zip/right
+                 zip/down
+                 zip/right
+                 zip/right
+                 zip/right
+                 zip/children))))
+
+(defn summary-zipper
+  [wg-data]
+  (-> wg-data
+    zip/xml-zip
+    zip/down
+    zip/right
+    zip/right
+    zip/right
+    zip/down
+    zip/right
+    zip/right
+    zip/right
+    zip/down
+    zip/children))
+
+(defn filter-wg-data
+  [wg-data]
+  (for [xml-node (summary-zipper wg-data)
+        :let [tag (:tag xml-node)]
+        :when (some #{tag} [:fog :rain :snow :hail :meantempm :maxtempm
+                            :mintempm])]
+    [tag (read-string (first (:content xml-node)))]))
+
+(defn ->weather
+  [wg-data]
+  (into {} (filter-wg-data wg-data)))
+
+(defn get-weather-from-wg
+  [apikey date city]
+  (xml/parse (str "http://api.wunderground.com/api/" apikey "/history_"
+                  (str/replace date #"-" "") "/q/" city ".xml")))
 
 (defn get-weather
-  [request]
-  (response/response {:maxtempm 24}))
+  [{params :params}]
+  (let [date (:date params)
+        city (:city params)
+        wg-data (get-weather-from-wg apikey date city)]
+    (if (wg-xml-has-data? wg-data)
+      (response/response (->weather (get-weather-from-wg apikey date city)))
+      (response/status (response/response {}) 403))))
