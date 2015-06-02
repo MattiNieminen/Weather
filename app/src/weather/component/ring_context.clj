@@ -1,15 +1,20 @@
 (ns weather.component.ring-context
   (:require [com.stuartsierra.component :as component]))
 
-(defn wrap-database [handler database]
+(defn wrap-context
+  [handler wg-apikey database]
   (fn [request]
-    (handler (assoc request :database database))))
+    (handler (assoc request
+                    :wg-apikey wg-apikey
+                    :database database))))
 
-(defrecord Ring-Context [mongodb initial-handler]
+(defrecord Ring-Context [config mongodb initial-handler]
   component/Lifecycle
   
   (start [this]
-    (assoc this :handler (wrap-database initial-handler (:database mongodb))))
+    (assoc this :handler (wrap-context initial-handler
+                                       (get-in config [:loaded :wg-apikey])
+                                       (:database mongodb))))
   
   (stop [this]
     (dissoc this :handler)))

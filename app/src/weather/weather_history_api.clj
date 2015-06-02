@@ -6,8 +6,6 @@
             [weather.utils :as utils]
             [ring.util.response :as response]))
 
-(def apikey "ca497f499aa559d7")
-
 (def WeatherHistory {:fog s/Num
                      :rain s/Num
                      :snow s/Num
@@ -58,10 +56,10 @@
                   (str/replace date #"-" "") "/q/" city ".xml")))
 
 (defn get-weather
-  [{params :params}]
+  [{params :params wg-apikey :wg-apikey}]
   (let [date (:date params)
         city (:city params)
-        wg-data (get-weather-from-wg apikey date city)]
+        wg-data (get-weather-from-wg wg-apikey date city)]
     (if (wg-xml-has-data? wg-data)
       (response/response (->WeatherHistory wg-data))
       (response/status (response/response {}) 400))))

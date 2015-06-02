@@ -1,4 +1,5 @@
 {:http {:port 8080}
  :mongodb {:connection {:host "localhost"
                         :port 27017}
-           :database "weather"}}
+           :database "weather"}
+ :wg-apikey "ca497f499aa559d7"}
