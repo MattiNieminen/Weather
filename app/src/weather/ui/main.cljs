@@ -2,18 +2,20 @@
   (:require [weather.localization :refer [tr]]
             [reagent.core :as reagent]
             [weather.ui.view.controls :as controls]
-            [weather.ui.route :as route]))
+            [weather.ui.view.weather :as weather]
+            [weather.ui.state :as state]))
 
 (defn main-view
   []
   [:div
    [:h1 (tr :title)]
-   [controls/controls]])
+   [controls/controls]
+   [weather/weather-view @state/state]])
 
 (defn init!
   []
   (.log js/console "Here we go! Rendering the components...")
-  (route/init-hook!)
+  (state/init-hook!)
   (reagent/render [main-view] (js/document.getElementById "app")))
 
 (init!)
