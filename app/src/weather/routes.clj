@@ -23,6 +23,6 @@
     
     (GET* "/weather/:city/:date" []
       :summary "Gets weather either from database (if exists) or Wunderground."
-      :path-params [city :- s/Str, date :- LocalDate]
+      :path-params [city :- s/Keyword, date :- LocalDate]
       :return weather-api/Weather
       weather-api/get-weather)))
