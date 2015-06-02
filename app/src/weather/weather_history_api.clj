@@ -3,6 +3,7 @@
             [clojure.xml :as xml]
             [clojure.zip :as zip]
             [clojure.string :as str]
+            [weather.utils :as utils]
             [ring.util.response :as response]))
 
 (def apikey "ca497f499aa559d7")
@@ -29,7 +30,7 @@
                  zip/right
                  zip/children))))
 
-(defn summary-zipper
+(defn history-zipper
   [wg-data]
   (-> wg-data
     zip/xml-zip
@@ -44,21 +45,12 @@
     zip/down
     zip/children))
 
-(defn filter-wg-data
-  [wg-data]
-  (for [xml-node (summary-zipper wg-data)
-        :let [tag (:tag xml-node)
-              content (str/join (:content xml-node))]
-        :when (some #{tag} [:fog :rain :snow :hail :meantempm :maxtempm
-                            :mintempm])]
-    [tag (if
-           (symbol? (read-string content))
-           (str (read-string content))
-           (read-string content))]))
-
 (defn ->WeatherHistory
   [wg-data]
-  (into {} (filter-wg-data wg-data)))
+  (into {} (utils/filter-wg-data
+             wg-data
+             history-zipper
+             [:fog :rain :snow :hail :meantempm :maxtempm :mintempm])))
 
 (defn get-weather-from-wg
   [apikey date city]

@@ -2,7 +2,7 @@
   (:require [schema.core :as s]
             [clojure.xml :as xml]
             [clojure.zip :as zip]
-            [clojure.string :as str]
+            [weather.utils :as utils]
             [ring.util.response :as response]))
 
 (def apikey "ca497f499aa559d7")
@@ -29,20 +29,9 @@
     zip/right
     zip/children))
 
-(defn filter-wg-data
-  [wg-data]
-  (for [xml-node (current-zipper wg-data)
-        :let [tag (:tag xml-node)
-              content (str/join (:content xml-node))]
-        :when (some #{tag} [:temp_c :weather])]
-    [tag (if
-           (symbol? (read-string content))
-           (str (read-string content))
-           (read-string content))]))
-
 (defn ->CurrentWeather
   [wg-data]
-  (into {} (filter-wg-data wg-data)))
+  (into {} (utils/filter-wg-data wg-data current-zipper [:temp_c :weather])))
 
 (defn get-weather-from-wg
   [apikey city]
