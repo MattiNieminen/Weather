@@ -47,12 +47,16 @@
 (defn filter-wg-data
   [wg-data]
   (for [xml-node (summary-zipper wg-data)
-        :let [tag (:tag xml-node)]
+        :let [tag (:tag xml-node)
+              content (str/join (:content xml-node))]
         :when (some #{tag} [:fog :rain :snow :hail :meantempm :maxtempm
                             :mintempm])]
-    [tag (read-string (first (:content xml-node)))]))
+    [tag (if
+           (symbol? (read-string content))
+           (str (read-string content))
+           (read-string content))]))
 
-(defn ->weather
+(defn ->WeatherHistory
   [wg-data]
   (into {} (filter-wg-data wg-data)))
 
@@ -67,5 +71,5 @@
         city (:city params)
         wg-data (get-weather-from-wg apikey date city)]
     (if (wg-xml-has-data? wg-data)
-      (response/response (->weather (get-weather-from-wg apikey date city)))
-      (response/status (response/response {}) 403))))
+      (response/response (->WeatherHistory wg-data))
+      (response/status (response/response {}) 400))))
