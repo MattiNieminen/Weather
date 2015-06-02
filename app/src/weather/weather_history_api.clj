@@ -1,4 +1,4 @@
-(ns weather.weather-api
+(ns weather.weather-history-api
   (:require [schema.core :as s]
             [clojure.xml :as xml]
             [clojure.zip :as zip]
@@ -7,13 +7,13 @@
 
 (def apikey "ca497f499aa559d7")
 
-(def Weather {:fog s/Num
-              :rain s/Num
-              :snow s/Num
-              :hail s/Num
-              :meantempm s/Num
-              :maxtempm s/Num
-              :mintempm s/Num})
+(def WeatherHistory {:fog s/Num
+                     :rain s/Num
+                     :snow s/Num
+                     :hail s/Num
+                     :meantempm s/Num
+                     :maxtempm s/Num
+                     :mintempm s/Num})
 
 (defn wg-xml-has-data?
   [wg-data]
