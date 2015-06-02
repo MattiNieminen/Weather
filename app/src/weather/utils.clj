@@ -38,5 +38,5 @@
         :when (some #{tag} tags)]
     [tag (if
            (symbol? (read-string content))
-           (str (read-string content))
+           (str content)
            (read-string content))]))
