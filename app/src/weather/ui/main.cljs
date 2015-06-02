@@ -1,17 +1,14 @@
 (ns ^:figwheel-always weather.ui.main
   (:require [weather.localization :refer [tr]]
             [reagent.core :as reagent]
-            [weather.ui.view.navigation :as navigation]
-            [weather.ui.view.view :as view]
-            [weather.ui.view.views]
+            [weather.ui.view.controls :as controls]
             [weather.ui.route :as route]))
 
 (defn main-view
   []
   [:div
    [:h1 (tr :title)]
-   [navigation/navigation]
-   (view/render-view @route/route)])
+   [controls/controls]])
 
 (defn init!
   []
