@@ -8,7 +8,9 @@
                  :snow "It snowed!"
                  :hail "It hailed!"
                  :highest "Highest temp: "
-                 :lowest "Lowest temp: "})
+                 :lowest "Lowest temp: "
+                 :bad-request "Bad request! Maybe you are trying to look too
+                               far in the future or in the past?"})
 
 (defn tr
   [key]
