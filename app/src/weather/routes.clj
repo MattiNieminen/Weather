@@ -3,6 +3,7 @@
             [schema.core :as s]
             [weather.ui.index :as index]
             [compojure.route :as route]
+            [weather.current-weather-api :as current-api]
             [weather.weather-history-api :as history-api])
   (:import [org.joda.time LocalDate]))
 
@@ -20,6 +21,13 @@
   
   (context* "/api" []
     :tags ["API"]
+    
+    (GET* "/current/:city" []
+      :summary "Gets current weather either from database (if exists) or
+                Wunderground."
+      :path-params [city :- s/Keyword]
+      :return current-api/CurrentWeather
+      current-api/get-weather)
     
     (GET* "/weather/:city/:date" []
       :summary "Gets weather history either from database (if exists) or
