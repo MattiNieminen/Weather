@@ -23,12 +23,12 @@
    [:h1 (tr :bad-request)]])
 
 (defn weather-view
-  [state]
-  (cond (nil? (:weather-history-data state))
+  [data]
+  (cond (nil? data)
         [:span (tr :fetching-data)]
         
-        (= 200 (:status (:weather-history-data state)))
-        [weather-data-view (:body (:weather-history-data state))]
+        (= 200 (:status data))
+        [weather-data-view (:body data)]
         
-        (not (:status (:weather-history-data state)))
+        (not (:status data))
         [error-view]))
