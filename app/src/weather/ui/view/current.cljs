@@ -7,13 +7,13 @@
   [current-weather-data]
   [:div
    [:h2 (tr :current-weather)]
-   [:p (:temp_c current-weather-data)]
-   [:p (:weather current-weather-data)]])
+   [:p#temp_c (utils/->celsius-str (:temp_c current-weather-data))]
+   [:p#weather-text (:weather current-weather-data)]])
 
 (defn weather-view
   [state]
   (cond (nil? (:current-weather-data state))
-        [:span "Fetching data..."]
+        [:span (tr :fetching-data)]
         
         (= 200 (:status (:current-weather-data state)))
         [weather-data-view (:body (:current-weather-data state))]))

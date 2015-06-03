@@ -8,7 +8,7 @@
 
 (defn main-view
   []
-  [:div
+  [:div#content
    [:h1 (tr :title)]
    [controls/controls]
    (if (contains? @state/state :current-weather-data)

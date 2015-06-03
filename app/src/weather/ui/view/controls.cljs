@@ -41,5 +41,6 @@
    [city-select]
    [pikaday/date-selector {:date-atom date}]
    [:button {:type "button"
-             :on-click #(state/modify-location-hash! (route-from-atoms))}
+             :on-click #(state/modify-location-hash! (route-from-atoms))
+             :id "submit-button"}
     (tr :submit)]])

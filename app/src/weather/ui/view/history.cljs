@@ -8,8 +8,10 @@
   [:div
    [:h2 (tr :data-arrived)]
    [:ul
-    [:li (str (tr :highest) (:maxtempm weather-history-data))]
-    [:li (str (tr :lowest) (:mintempm weather-history-data))]
+    [:li (tr :highest)
+              [:strong (utils/->celsius-str (:maxtempm weather-history-data))]]
+    [:li (tr :lowest)
+     [:strong (utils/->celsius-str (:mintempm weather-history-data))]]
     (if (> (:fog weather-history-data) 0) [:li (tr :fog)])
     (if (> (:rain weather-history-data) 0) [:li (tr :rain)] [:h1])
     (if (> (:snow weather-history-data) 0) [:li (tr :snow)])
@@ -23,7 +25,7 @@
 (defn weather-view
   [state]
   (cond (nil? (:weather-history-data state))
-        [:span "Fetching data..."]
+        [:span (tr :fetching-data)]
         
         (= 200 (:status (:weather-history-data state)))
         [weather-data-view (:body (:weather-history-data state))]

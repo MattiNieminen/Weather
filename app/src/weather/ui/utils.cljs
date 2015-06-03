@@ -14,3 +14,11 @@
   (go
     (let [response (<! (http/post url {:edn-params body}))]
       (f response))))
+
+;
+; Application related
+;
+
+(defn ->celsius-str
+  [s]
+  (str s "°C"))
