@@ -2,6 +2,7 @@
 
 (def dictionary {:title "Weather with Clojure from Wunderground!"
                  :submit "Show me the weather!"
+                 :fetching-data "Fetching data. Please wait..."
                  :current-weather "Here is the current weather:"
                  :data-arrived "Here is the weather data you wanted:"
                  :fog "There was some fog to be seen!"
