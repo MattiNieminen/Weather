@@ -20,7 +20,7 @@
   (utils/http-get!
     (history-api-route city date)
     #(reset! state {:city city
-                    :date date
+                    :date (js/Date. date)
                     :weather-history-data %})))
 
 ;
@@ -35,6 +35,7 @@
   (utils/http-get!
     (current-api-route city)
     #(reset! state {:city city
+                    :date (js/Date.)
                     :current-weather-data %})))
 
 ;
@@ -43,10 +44,10 @@
 (secretary/set-config! :prefix "#")
 
 (secretary/defroute "/:city/:date" [city date]
-  (reset! state (get-weather-history-from-backend city date)))
+  (get-weather-history-from-backend city date))
 
 (secretary/defroute "/:city" [city]
-  (reset! state (get-current-weather-from-backend city)))
+  (get-current-weather-from-backend city))
 
 (secretary/defroute "*" []
   (reset! state nil))
@@ -62,10 +63,3 @@
   []
   (set! js/window.onhashchange update-route!)
   (update-route! nil))
-
-;
-; For modifying the location.hash
-;
-(defn modify-location-hash!
-  [hash]
-  (set! js/location.hash hash))

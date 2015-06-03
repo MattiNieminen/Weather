@@ -10,10 +10,10 @@
   []
   [:div#content
    [:h1 (tr :title)]
-   [controls/controls]
+   [controls/controls @state/state]
    (if (contains? @state/state :current-weather-data)
-     [current/weather-view @state/state]
-     [history/weather-view @state/state])])
+     [current/weather-view (:current-weather-data @state/state)]
+     [history/weather-view (:weather-history-data @state/state)])])
 
 (defn init!
   []

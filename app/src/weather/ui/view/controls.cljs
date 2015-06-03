@@ -4,12 +4,18 @@
             [weather.ui.state :as state]
             [weather.localization :refer [tr]]))
 
-(defonce city (reagent/atom "tampere"))
-(defonce date (reagent/atom (js/Date.)))
+(defonce city (reagent/atom nil))
+(defonce date (reagent/atom nil))
+
+(defn add-zero
+  [int]
+  (if (< int 10) (str "0" int) int))
 
 (defn format-date
   [date]
-  (str (.getFullYear date) "-" (+ 1 (.getMonth date)) "-" (.getDate date)))
+  (str (.getFullYear date) "-"
+       (add-zero (+ 1 (.getMonth date))) "-"
+       (add-zero (.getDate date))))
 
 (defn current-date?
   [date]
@@ -20,6 +26,9 @@
            (= (.getDate date) (.getDate current-date)))
       true)))
 
+;
+; For modifying the location.hash
+;
 (defn route-from-atoms
   []
   (if
@@ -27,6 +36,13 @@
     (str "#/" @city)
     (str "#/" @city "/" (format-date @date))))
 
+(defn modify-location-hash!
+  [hash]
+  (set! js/location.hash hash))
+
+;
+; Components
+;
 (defn city-select
   []
   [:select {:value @city
@@ -36,11 +52,13 @@
    [:option {:value "durham_nc"} "Durham, North Carolina"]])
 
 (defn controls
-  []
+  [state]
+  (reset! city (:city state))
+  (reset! date (:date state))
   [:div#controls
    [city-select]
    [pikaday/date-selector {:date-atom date}]
    [:button {:type "button"
-             :on-click #(state/modify-location-hash! (route-from-atoms))
+             :on-click #(modify-location-hash! (route-from-atoms))
              :id "submit-button"}
     (tr :submit)]])

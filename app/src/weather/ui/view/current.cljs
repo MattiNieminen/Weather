@@ -11,9 +11,9 @@
    [:p#weather-text (:weather current-weather-data)]])
 
 (defn weather-view
-  [state]
-  (cond (nil? (:current-weather-data state))
+  [data]
+  (cond (nil? data)
         [:span (tr :fetching-data)]
         
-        (= 200 (:status (:current-weather-data state)))
-        [weather-data-view (:body (:current-weather-data state))]))
+        (= 200 (:status data))
+        [weather-data-view (:body data)]))
