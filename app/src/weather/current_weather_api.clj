@@ -11,11 +11,12 @@
 (defn wg-xml-has-data?
   [wg-data]
   (not (= :error (:tag (-> wg-data
-                    zip/xml-zip
-                    zip/down
-                    zip/right
-                    zip/right
-                    zip/right)))))
+                         zip/xml-zip
+                         zip/down
+                         zip/right
+                         zip/right
+                         zip/right
+                         zip/node)))))
 
 (defn current-zipper
   [wg-data]
