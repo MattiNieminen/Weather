@@ -11,7 +11,7 @@ for production deployment.
 3. Install Vagrant
 4. Install Leiningen
 5. Clone the repository to the server
-6. Run the following commands in the cloned directory
+6. Run the following commands in the cloned directory:
 
 ```bash
 # Download, install and run a virtualization environment for MongoDB.
@@ -35,10 +35,14 @@ lein test
 
 1. Install Git
 2. Install Docker
-3. ??? (TODO more?)
+3. Install Leiningen (and Java)
+3. As a user that can sudo:
 
 ```bash
-# TODO Docker commands
+git clone https://github.com/MattiNieminen/weather.git
+cd weather
+chmod a+x os/dockerize.sh
+sudo ./os/dockerize.sh
 ```
 
 Let me know if you need instructions for production Windows-servers!

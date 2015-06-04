@@ -8,6 +8,12 @@ if [ $? != 0 ]; then
 fi
 
 
+printf "Building uberjar..."
+cd app
+lein build
+cd ..
+
+
 printf "Dockerizing MongoDB..."
 PS="$(docker ps -a | grep mongo)"
 
@@ -26,8 +32,8 @@ if [ ! -z "$PS" ]; then
   docker stop clj-app; docker rm clj-app
 fi
 
-docker build -t clj-app-v1 ./app
-docker run -d -p 80:8080 --name clj-app --link mongo:mongo -d clj-app-v1
+docker build -t clojure/app:v1 ./app
+docker run -d -p 80:8080 --name clj-app --link mongo:mongo -d clojure/app:v1
 
 
 exit 0
