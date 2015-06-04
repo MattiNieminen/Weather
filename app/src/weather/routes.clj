@@ -3,12 +3,15 @@
             [schema.core :as s]
             [weather.ui.index :as index]
             [compojure.route :as route]
-            [weather.message-api :as message-api]))
+            [weather.current-weather-api :as current-api]
+            [weather.weather-history-api :as history-api])
+  (:import [org.joda.time LocalDate]))
 
 (defapi app
   (swagger-ui "/swagger-ui")
   (swagger-docs {:info {:title "weather API"
-                        :description "Example API for example application."}})
+                        :description "API for getting and caching weather from
+                                      Wunderground"}})
   
   (GET* "/" []
     :no-doc true
@@ -19,13 +22,16 @@
   (context* "/api" []
     :tags ["API"]
     
-    (GET* "/messages" []
-      :summary "Gets messages from MongoDB."
-      :return  [message-api/SavableMessage]
-      message-api/get-messages)
+    (GET* "/weather/:city" []
+      :summary "Gets current weather either from database (if exists) or
+                Wunderground."
+      :path-params [city :- s/Keyword]
+      :return current-api/CurrentWeather
+      current-api/get-weather)
     
-    (POST* "/messages" []
-      :summary "Saves a message to MongoDB."
-      :body [message message-api/Message]
-      :return message-api/SavableMessage
-      message-api/save-message)))
+    (GET* "/weather/:city/:date" []
+      :summary "Gets weather history either from database (if exists) or
+                Wunderground."
+      :path-params [city :- s/Keyword, date :- LocalDate]
+      :return history-api/WeatherHistory
+      history-api/get-weather)))

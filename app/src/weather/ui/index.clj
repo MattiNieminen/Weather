@@ -1,6 +1,7 @@
 (ns weather.ui.index
   (:require [clojure.java.io :as io]
-            [hiccup.page :as page])
+            [hiccup.page :as page]
+            [weather.localization :refer [tr]])
   (:import [org.apache.commons.codec.digest DigestUtils]))
 
 (defn resource-with-checksum
@@ -16,12 +17,13 @@
   []
   (page/html5
     [:head
-     [:title "weather"]
+     [:title (tr :title)]
      [:meta {:charset "utf-8"}]
      [:meta {:http-equiv "X-UA-Compatible" :content "IE=edge"}]
      [:meta {:name "viewport"
              :content "width=device-width, initial-scale=1.0"}]
-     (page/include-css (resource-with-checksum "css/style.css"))]
+     (page/include-css (resource-with-checksum "css/style.css"))
+     (page/include-css (resource-with-checksum "css/pikaday.css"))]
     [:body
      [:div#app]
      (page/include-js (resource-with-checksum "js/main.js"))]))

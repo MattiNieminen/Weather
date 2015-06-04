@@ -1,12 +1,18 @@
 (ns weather.localization)
 
-(def dictionary {:title "Hello World!"
-                 :not-found "The page you are looking for does not exist."
-                 :messages "Messages"
-                 :new-message "New message"
-                 :sender "Sender"
-                 :message "Message"
-                 :submit "Submit"})
+(def dictionary {:title "Weather with Clojure from Wunderground!"
+                 :submit "Show me the weather!"
+                 :fetching-data "Fetching data. Please wait..."
+                 :current-weather "Here is the current weather:"
+                 :data-arrived "Here is the weather data you wanted:"
+                 :fog "There was some fog to be seen!"
+                 :rain "It rained!"
+                 :snow "It snowed!"
+                 :hail "There was some hail!"
+                 :highest "Highest temp (celsius): "
+                 :lowest "Lowest temp (celsius): "
+                 :bad-request "Bad request! Maybe you are trying to look too
+                               far in the future or in the past?"})
 
 (defn tr
   [key]

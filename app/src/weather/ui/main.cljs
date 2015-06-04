@@ -1,22 +1,24 @@
 (ns ^:figwheel-always weather.ui.main
   (:require [weather.localization :refer [tr]]
             [reagent.core :as reagent]
-            [weather.ui.view.navigation :as navigation]
-            [weather.ui.view.view :as view]
-            [weather.ui.view.views]
-            [weather.ui.route :as route]))
+            [weather.ui.view.controls :as controls]
+            [weather.ui.view.current :as current]
+            [weather.ui.view.history :as history]
+            [weather.ui.state :as state]))
 
 (defn main-view
   []
-  [:div
+  [:div#content
    [:h1 (tr :title)]
-   [navigation/navigation]
-   (view/render-view @route/route)])
+   [controls/controls @state/state]
+   (if (contains? @state/state :current-weather-data)
+     [current/weather-view (:current-weather-data @state/state)]
+     [history/weather-view (:weather-history-data @state/state)])])
 
 (defn init!
   []
   (.log js/console "Here we go! Rendering the components...")
-  (route/init-hook!)
+  (state/init-hook!)
   (reagent/render [main-view] (js/document.getElementById "app")))
 
 (init!)
