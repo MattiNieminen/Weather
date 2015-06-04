@@ -1,4 +1,4 @@
-(ns weather.localization_test
+(ns weather.localization-test
   (:require [clojure.test :refer :all]
             [weather.localization :refer :all]))
 
