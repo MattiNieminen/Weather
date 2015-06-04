@@ -42,7 +42,7 @@ lein test
 git clone https://github.com/MattiNieminen/weather.git
 cd weather
 chmod a+x os/dockerize.sh
-sudo ./os/dockerize.sh
+./os/dockerize.sh
 ```
 
 Let me know if you need instructions for production Windows-servers!
