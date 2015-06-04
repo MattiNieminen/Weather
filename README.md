@@ -41,6 +41,7 @@ lein test
 ```bash
 git clone https://github.com/MattiNieminen/weather.git
 cd weather
+# NOW: change the apikey in app/resources/config.edn
 chmod a+x os/dockerize.sh
 ./os/dockerize.sh
 ```

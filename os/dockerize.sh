@@ -8,13 +8,13 @@ if [ $? != 0 ]; then
 fi
 
 
-printf "Building uberjar..."
+printf "Building uberjar...\n"
 cd app
 lein build
 cd ..
 
 
-printf "Dockerizing MongoDB..."
+printf "Dockerizing MongoDB...\n"
 PS="$(sudo docker ps -a | grep mongo)"
 
 if [ ! -z "$PS" ]; then
@@ -25,11 +25,11 @@ sudo mkdir -p /opt/docker/mongo_volume
 sudo docker run --name mongo -v /opt/docker/mongo_volume:/data/db/ -d mongo:3
 
 
-printf "Dockerizing Clojure application..."
+printf "Dockerizing Clojure application...\n"
 PS="$(sudo docker ps -a | grep clj-app)"
 
 if [ ! -z "$PS" ]; then
-  sudo docker stop clj-app; docker rm clj-app
+  sudo docker stop clj-app; sudo docker rm clj-app
 fi
 
 sudo docker build -t clojure/app:v1 ./app
