@@ -20,7 +20,8 @@
                  [clj-time "0.9.0"]
                  [org.clojure/core.async "0.1.346.0-17112a-alpha"]
                  [cljs-http "0.1.31"]
-                 [cljs-pikaday "0.1.1"]]
+                 [cljs-pikaday "0.1.1"]
+                 [geo-clj "0.3.22"]]
   :main ^:skip-aot weather.main
   :target-path "target/%s"
   :profiles {:dev {:resource-paths ["target/dev"]
