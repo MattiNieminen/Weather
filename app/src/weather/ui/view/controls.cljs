@@ -1,7 +1,7 @@
 (ns weather.ui.view.controls
   (:require [reagent.core :as reagent]
             [cljs-pikaday.reagent :as pikaday]
-            [weather.ui.state :as state]
+            [weather.location :as location]
             [weather.localization :refer [tr]]))
 
 (defonce city (reagent/atom nil))
@@ -47,9 +47,8 @@
   []
   [:select {:value @city
             :on-change #(reset! city (-> % .-target .-value))}
-   [:option {:value "tampere_fi"} "Tampere"]
-   [:option {:value "london_gb"} "London"]
-   [:option {:value "durham_nc"} "Durham, North Carolina"]])
+   (for [city (vals location/cities)]
+     ^{:key (:id city)} [:option {:value (:id city)} (:name city)])])
 
 (defn controls
   [state]

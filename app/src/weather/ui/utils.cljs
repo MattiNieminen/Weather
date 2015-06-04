@@ -1,5 +1,5 @@
 (ns weather.ui.utils
-  (:require [cljs.core.async :refer [<!]]
+  (:require [cljs.core.async :refer [<! timeout]]
             [cljs-http.client :as http])
   (:require-macros [cljs.core.async.macros :refer [go]]))
 
@@ -14,6 +14,12 @@
   (go
     (let [response (<! (http/post url {:edn-params body}))]
       (f response))))
+
+(defn after-timeout
+  [milliseconds f]
+  (go
+    (<! (timeout milliseconds))
+    (f)))
 
 ;
 ; Application related
