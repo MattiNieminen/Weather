@@ -1,0 +1,3567 @@
+
+<response>
+	<version>0.1</version>
+	<termsofService>http://www.wunderground.com/weather/api/d/terms.html</termsofService>
+	<features>
+		<feature>history</feature>
+	</features>
+		<history>
+		<date>
+		<pretty>January  1, 2015</pretty>
+			<year>2015</year>
+			<mon>01</mon>
+			<mday>01</mday>
+			<hour>00</hour>
+			<min>20</min>
+			<tzname>Europe/Helsinki</tzname>
+		</date>
+		<utcdate>
+			<pretty>December 31, 2014</pretty>
+			<year>2014</year>
+			<mon>12</mon>
+			<mday>31</mday>
+			<hour>22</hour>
+			<min>20</min>
+			<tzname>UTC</tzname>
+		</utcdate>
+		<observations>
+			
+				<observation> 
+					<date>
+						<pretty>12:20 AM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>00</hour>
+						<min>20</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>10:20 PM GMT on December 31, 2014</pretty>
+						<year>2014</year>
+						<mon>12</mon>
+						<mday>31</mday>
+						<hour>22</hour>
+						<min>20</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>5.0</tempm>
+						<tempi>41.0</tempi>
+					
+						<dewptm>4.0</dewptm>
+						<dewpti>39.2</dewpti>
+					<hum>93</hum>
+					
+						<wspdm>14.8</wspdm>
+						<wspdi>9.2</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>260</wdird>
+					<wdire>West</wdire>
+					
+						<vism>10.0</vism>
+						<visi>6.2</visi>
+					
+						<pressurem>1009</pressurem>
+						<pressurei>29.80</pressurei>
+					
+						<windchillm>1.8</windchillm>
+						<windchilli>35.2</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Overcast</conds>
+					<icon>cloudy</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 312220Z AUTO 26008KT 9999 SCT044 BKN050 OVC065 05/04 Q1009]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>12:50 AM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>00</hour>
+						<min>50</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>10:50 PM GMT on December 31, 2014</pretty>
+						<year>2014</year>
+						<mon>12</mon>
+						<mday>31</mday>
+						<hour>22</hour>
+						<min>50</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>5.0</tempm>
+						<tempi>41.0</tempi>
+					
+						<dewptm>4.0</dewptm>
+						<dewpti>39.2</dewpti>
+					<hum>93</hum>
+					
+						<wspdm>16.7</wspdm>
+						<wspdi>10.4</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>260</wdird>
+					<wdire>West</wdire>
+					
+						<vism>10.0</vism>
+						<visi>6.2</visi>
+					
+						<pressurem>1009</pressurem>
+						<pressurei>29.80</pressurei>
+					
+						<windchillm>1.5</windchillm>
+						<windchilli>34.7</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Overcast</conds>
+					<icon>cloudy</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 312250Z AUTO 26009KT 9999 SCT035 OVC043 05/04 Q1009]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>1:20 AM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>01</hour>
+						<min>20</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>11:20 PM GMT on December 31, 2014</pretty>
+						<year>2014</year>
+						<mon>12</mon>
+						<mday>31</mday>
+						<hour>23</hour>
+						<min>20</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>5.0</tempm>
+						<tempi>41.0</tempi>
+					
+						<dewptm>3.0</dewptm>
+						<dewpti>37.4</dewpti>
+					<hum>87</hum>
+					
+						<wspdm>11.1</wspdm>
+						<wspdi>6.9</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>270</wdird>
+					<wdire>West</wdire>
+					
+						<vism>10.0</vism>
+						<visi>6.2</visi>
+					
+						<pressurem>1009</pressurem>
+						<pressurei>29.80</pressurei>
+					
+						<windchillm>2.5</windchillm>
+						<windchilli>36.4</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Mostly Cloudy</conds>
+					<icon>mostlycloudy</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 312320Z AUTO 27006KT 9999 FEW034 SCT043 BKN105 05/03 Q1009]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>1:50 AM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>01</hour>
+						<min>50</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>11:50 PM GMT on December 31, 2014</pretty>
+						<year>2014</year>
+						<mon>12</mon>
+						<mday>31</mday>
+						<hour>23</hour>
+						<min>50</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>5.0</tempm>
+						<tempi>41.0</tempi>
+					
+						<dewptm>4.0</dewptm>
+						<dewpti>39.2</dewpti>
+					<hum>93</hum>
+					
+						<wspdm>11.1</wspdm>
+						<wspdi>6.9</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>270</wdird>
+					<wdire>West</wdire>
+					
+						<vism>-9999.0</vism>
+						<visi>-9999.0</visi>
+					
+						<pressurem>1009</pressurem>
+						<pressurei>29.80</pressurei>
+					
+						<windchillm>2.5</windchillm>
+						<windchilli>36.4</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Clear</conds>
+					<icon>clear</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 312350Z AUTO 27006KT CAVOK 05/04 Q1009]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>2:00 AM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>02</hour>
+						<min>00</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>12:00 AM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>00</hour>
+						<min>00</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>5</tempm>
+						<tempi>41</tempi>
+					
+						<dewptm>4</dewptm>
+						<dewpti>38</dewpti>
+					<hum>86</hum>
+					
+						<wspdm>10.8</wspdm>
+						<wspdi>6.7</wspdi>
+					
+						<wgustm></wgustm>
+						<wgusti></wgusti>
+					<wdird>270</wdird>
+					<wdire>West</wdire>
+					
+						<vism>45</vism>
+						<visi>28</visi>
+					
+						<pressurem>1010</pressurem>
+						<pressurei>29.82</pressurei>
+					
+						<windchillm>-999</windchillm>
+						<windchilli>-999</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm></precipm>
+						<precipi></precipi>
+					<conds>Clear</conds>
+					<icon>clear</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[AAXX 01001 02944 47983 32703 10048 20035 39951 40098 700// 83/// 90000]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>2:20 AM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>02</hour>
+						<min>20</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>12:20 AM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>00</hour>
+						<min>20</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>3.0</tempm>
+						<tempi>37.4</tempi>
+					
+						<dewptm>2.0</dewptm>
+						<dewpti>35.6</dewpti>
+					<hum>93</hum>
+					
+						<wspdm>14.8</wspdm>
+						<wspdi>9.2</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>230</wdird>
+					<wdire>SW</wdire>
+					
+						<vism>-9999.0</vism>
+						<visi>-9999.0</visi>
+					
+						<pressurem>1009</pressurem>
+						<pressurei>29.80</pressurei>
+					
+						<windchillm>-0.7</windchillm>
+						<windchilli>30.8</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Clear</conds>
+					<icon>clear</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 010020Z AUTO 23008KT CAVOK 03/02 Q1009]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>2:50 AM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>02</hour>
+						<min>50</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>12:50 AM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>00</hour>
+						<min>50</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>3.0</tempm>
+						<tempi>37.4</tempi>
+					
+						<dewptm>3.0</dewptm>
+						<dewpti>37.4</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>13.0</wspdm>
+						<wspdi>8.1</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>220</wdird>
+					<wdire>SW</wdire>
+					
+						<vism>-9999.0</vism>
+						<visi>-9999.0</visi>
+					
+						<pressurem>1009</pressurem>
+						<pressurei>29.80</pressurei>
+					
+						<windchillm>-0.3</windchillm>
+						<windchilli>31.4</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Clear</conds>
+					<icon>clear</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 010050Z AUTO 22007KT CAVOK 03/03 Q1009]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>3:20 AM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>03</hour>
+						<min>20</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>1:20 AM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>01</hour>
+						<min>20</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>3.0</tempm>
+						<tempi>37.4</tempi>
+					
+						<dewptm>3.0</dewptm>
+						<dewpti>37.4</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>13.0</wspdm>
+						<wspdi>8.1</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>240</wdird>
+					<wdire>WSW</wdire>
+					
+						<vism>-9999.0</vism>
+						<visi>-9999.0</visi>
+					
+						<pressurem>1008</pressurem>
+						<pressurei>29.77</pressurei>
+					
+						<windchillm>-0.3</windchillm>
+						<windchilli>31.4</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Clear</conds>
+					<icon>clear</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 010120Z AUTO 24007KT CAVOK 03/03 Q1008]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>3:50 AM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>03</hour>
+						<min>50</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>1:50 AM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>01</hour>
+						<min>50</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>3.0</tempm>
+						<tempi>37.4</tempi>
+					
+						<dewptm>3.0</dewptm>
+						<dewpti>37.4</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>16.7</wspdm>
+						<wspdi>10.4</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>240</wdird>
+					<wdire>WSW</wdire>
+					
+						<vism>-9999.0</vism>
+						<visi>-9999.0</visi>
+					
+						<pressurem>1008</pressurem>
+						<pressurei>29.77</pressurei>
+					
+						<windchillm>-1.0</windchillm>
+						<windchilli>30.3</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Clear</conds>
+					<icon>clear</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 010150Z AUTO 24009KT CAVOK 03/03 Q1008]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>4:20 AM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>04</hour>
+						<min>20</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>2:20 AM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>02</hour>
+						<min>20</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>4.0</tempm>
+						<tempi>39.2</tempi>
+					
+						<dewptm>3.0</dewptm>
+						<dewpti>37.4</dewpti>
+					<hum>93</hum>
+					
+						<wspdm>16.7</wspdm>
+						<wspdi>10.4</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>250</wdird>
+					<wdire>WSW</wdire>
+					
+						<vism>-9999.0</vism>
+						<visi>-9999.0</visi>
+					
+						<pressurem>1008</pressurem>
+						<pressurei>29.77</pressurei>
+					
+						<windchillm>0.3</windchillm>
+						<windchilli>32.5</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Clear</conds>
+					<icon>clear</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 010220Z AUTO 25009KT CAVOK 04/03 Q1008]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>4:50 AM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>04</hour>
+						<min>50</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>2:50 AM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>02</hour>
+						<min>50</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>3.0</tempm>
+						<tempi>37.4</tempi>
+					
+						<dewptm>3.0</dewptm>
+						<dewpti>37.4</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>13.0</wspdm>
+						<wspdi>8.1</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>220</wdird>
+					<wdire>SW</wdire>
+					
+						<vism>-9999.0</vism>
+						<visi>-9999.0</visi>
+					
+						<pressurem>1008</pressurem>
+						<pressurei>29.77</pressurei>
+					
+						<windchillm>-0.3</windchillm>
+						<windchilli>31.4</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Clear</conds>
+					<icon>clear</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 010250Z AUTO 22007KT CAVOK 03/03 Q1008]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>5:00 AM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>05</hour>
+						<min>00</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>3:00 AM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>03</hour>
+						<min>00</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>2</tempm>
+						<tempi>36</tempi>
+					
+						<dewptm>2</dewptm>
+						<dewpti>35</dewpti>
+					<hum>96</hum>
+					
+						<wspdm>10.8</wspdm>
+						<wspdi>6.7</wspdi>
+					
+						<wgustm></wgustm>
+						<wgusti></wgusti>
+					<wdird>240</wdird>
+					<wdire>WSW</wdire>
+					
+						<vism>15</vism>
+						<visi>9</visi>
+					
+						<pressurem>1008</pressurem>
+						<pressurei>29.78</pressurei>
+					
+						<windchillm>-999</windchillm>
+						<windchilli>-999</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm></precipm>
+						<precipi></precipi>
+					<conds>Clear</conds>
+					<icon>clear</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[AAXX 01031 02944 47865 32403 10021 20018 39937 40085 700// 81/// 90300]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>5:20 AM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>05</hour>
+						<min>20</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>3:20 AM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>03</hour>
+						<min>20</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>2.0</tempm>
+						<tempi>35.6</tempi>
+					
+						<dewptm>2.0</dewptm>
+						<dewpti>35.6</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>16.7</wspdm>
+						<wspdi>10.4</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>230</wdird>
+					<wdire>SW</wdire>
+					
+						<vism>-9999.0</vism>
+						<visi>-9999.0</visi>
+					
+						<pressurem>1008</pressurem>
+						<pressurei>29.77</pressurei>
+					
+						<windchillm>-2.2</windchillm>
+						<windchilli>28.0</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Clear</conds>
+					<icon>clear</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 010320Z AUTO 23009KT CAVOK 02/02 Q1008]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>5:50 AM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>05</hour>
+						<min>50</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>3:50 AM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>03</hour>
+						<min>50</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>2.0</tempm>
+						<tempi>35.6</tempi>
+					
+						<dewptm>2.0</dewptm>
+						<dewpti>35.6</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>14.8</wspdm>
+						<wspdi>9.2</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>230</wdird>
+					<wdire>SW</wdire>
+					
+						<vism>-9999.0</vism>
+						<visi>-9999.0</visi>
+					
+						<pressurem>1008</pressurem>
+						<pressurei>29.77</pressurei>
+					
+						<windchillm>-1.9</windchillm>
+						<windchilli>28.6</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Clear</conds>
+					<icon>clear</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 010350Z AUTO 23008KT CAVOK 02/02 Q1008]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>6:20 AM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>06</hour>
+						<min>20</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>4:20 AM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>04</hour>
+						<min>20</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>2.0</tempm>
+						<tempi>35.6</tempi>
+					
+						<dewptm>2.0</dewptm>
+						<dewpti>35.6</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>14.8</wspdm>
+						<wspdi>9.2</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>230</wdird>
+					<wdire>SW</wdire>
+					
+						<vism>-9999.0</vism>
+						<visi>-9999.0</visi>
+					
+						<pressurem>1007</pressurem>
+						<pressurei>29.74</pressurei>
+					
+						<windchillm>-1.9</windchillm>
+						<windchilli>28.6</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Clear</conds>
+					<icon>clear</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 010420Z AUTO 23008KT CAVOK 02/02 Q1007]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>6:50 AM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>06</hour>
+						<min>50</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>4:50 AM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>04</hour>
+						<min>50</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>3.0</tempm>
+						<tempi>37.4</tempi>
+					
+						<dewptm>3.0</dewptm>
+						<dewpti>37.4</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>11.1</wspdm>
+						<wspdi>6.9</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>220</wdird>
+					<wdire>SW</wdire>
+					
+						<vism>-9999.0</vism>
+						<visi>-9999.0</visi>
+					
+						<pressurem>1007</pressurem>
+						<pressurei>29.74</pressurei>
+					
+						<windchillm>0.0</windchillm>
+						<windchilli>32.1</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Clear</conds>
+					<icon>clear</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 010450Z AUTO 22006KT CAVOK 03/03 Q1007]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>7:20 AM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>07</hour>
+						<min>20</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>5:20 AM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>05</hour>
+						<min>20</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>4.0</tempm>
+						<tempi>39.2</tempi>
+					
+						<dewptm>3.0</dewptm>
+						<dewpti>37.4</dewpti>
+					<hum>93</hum>
+					
+						<wspdm>16.7</wspdm>
+						<wspdi>10.4</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>240</wdird>
+					<wdire>WSW</wdire>
+					
+						<vism>-9999.0</vism>
+						<visi>-9999.0</visi>
+					
+						<pressurem>1007</pressurem>
+						<pressurei>29.74</pressurei>
+					
+						<windchillm>0.3</windchillm>
+						<windchilli>32.5</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Clear</conds>
+					<icon>clear</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 010520Z AUTO 24009KT CAVOK 04/03 Q1007]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>7:50 AM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>07</hour>
+						<min>50</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>5:50 AM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>05</hour>
+						<min>50</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>4.0</tempm>
+						<tempi>39.2</tempi>
+					
+						<dewptm>3.0</dewptm>
+						<dewpti>37.4</dewpti>
+					<hum>93</hum>
+					
+						<wspdm>18.5</wspdm>
+						<wspdi>11.5</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>240</wdird>
+					<wdire>WSW</wdire>
+					
+						<vism>-9999.0</vism>
+						<visi>-9999.0</visi>
+					
+						<pressurem>1007</pressurem>
+						<pressurei>29.74</pressurei>
+					
+						<windchillm>0.0</windchillm>
+						<windchilli>32.0</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Clear</conds>
+					<icon>clear</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 010550Z AUTO 24010KT CAVOK 04/03 Q1007]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>8:00 AM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>08</hour>
+						<min>00</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>6:00 AM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>06</hour>
+						<min>00</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>4</tempm>
+						<tempi>39</tempi>
+					
+						<dewptm>3</dewptm>
+						<dewpti>37</dewpti>
+					<hum>91</hum>
+					
+						<wspdm>21.6</wspdm>
+						<wspdi>13.4</wspdi>
+					
+						<wgustm></wgustm>
+						<wgusti></wgusti>
+					<wdird>240</wdird>
+					<wdire>WSW</wdire>
+					
+						<vism>50</vism>
+						<visi>31</visi>
+					
+						<pressurem>1007</pressurem>
+						<pressurei>29.75</pressurei>
+					
+						<windchillm>-999</windchillm>
+						<windchilli>-999</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm></precipm>
+						<precipi></precipi>
+					<conds>Clear</conds>
+					<icon>clear</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[AAXX 01061 02944 47999 82406 10039 20029 39925 40072 700// 88/// 90600 333 10051 20018 3////]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>8:20 AM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>08</hour>
+						<min>20</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>6:20 AM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>06</hour>
+						<min>20</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>3.0</tempm>
+						<tempi>37.4</tempi>
+					
+						<dewptm>2.0</dewptm>
+						<dewpti>35.6</dewpti>
+					<hum>93</hum>
+					
+						<wspdm>14.8</wspdm>
+						<wspdi>9.2</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>230</wdird>
+					<wdire>SW</wdire>
+					
+						<vism>-9999.0</vism>
+						<visi>-9999.0</visi>
+					
+						<pressurem>1006</pressurem>
+						<pressurei>29.71</pressurei>
+					
+						<windchillm>-0.7</windchillm>
+						<windchilli>30.8</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Clear</conds>
+					<icon>clear</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 010620Z AUTO 23008KT CAVOK 03/02 Q1006]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>8:50 AM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>08</hour>
+						<min>50</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>6:50 AM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>06</hour>
+						<min>50</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>3.0</tempm>
+						<tempi>37.4</tempi>
+					
+						<dewptm>3.0</dewptm>
+						<dewpti>37.4</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>14.8</wspdm>
+						<wspdi>9.2</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>230</wdird>
+					<wdire>SW</wdire>
+					
+						<vism>-9999.0</vism>
+						<visi>-9999.0</visi>
+					
+						<pressurem>1006</pressurem>
+						<pressurei>29.71</pressurei>
+					
+						<windchillm>-0.7</windchillm>
+						<windchilli>30.8</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Clear</conds>
+					<icon>clear</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 010650Z AUTO 23008KT CAVOK 03/03 Q1006]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>9:20 AM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>09</hour>
+						<min>20</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>7:20 AM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>07</hour>
+						<min>20</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>3.0</tempm>
+						<tempi>37.4</tempi>
+					
+						<dewptm>2.0</dewptm>
+						<dewpti>35.6</dewpti>
+					<hum>93</hum>
+					
+						<wspdm>11.1</wspdm>
+						<wspdi>6.9</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>220</wdird>
+					<wdire>SW</wdire>
+					
+						<vism>-9999.0</vism>
+						<visi>-9999.0</visi>
+					
+						<pressurem>1006</pressurem>
+						<pressurei>29.71</pressurei>
+					
+						<windchillm>0.0</windchillm>
+						<windchilli>32.1</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Clear</conds>
+					<icon>clear</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 010720Z AUTO 22006KT CAVOK 03/02 Q1006]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>9:50 AM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>09</hour>
+						<min>50</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>7:50 AM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>07</hour>
+						<min>50</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>3.0</tempm>
+						<tempi>37.4</tempi>
+					
+						<dewptm>3.0</dewptm>
+						<dewpti>37.4</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>9.3</wspdm>
+						<wspdi>5.8</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>220</wdird>
+					<wdire>SW</wdire>
+					
+						<vism>-9999.0</vism>
+						<visi>-9999.0</visi>
+					
+						<pressurem>1006</pressurem>
+						<pressurei>29.71</pressurei>
+					
+						<windchillm>0.5</windchillm>
+						<windchilli>32.8</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Clear</conds>
+					<icon>clear</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 010750Z AUTO 22005KT CAVOK 03/03 Q1006]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>10:20 AM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>10</hour>
+						<min>20</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>8:20 AM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>08</hour>
+						<min>20</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>3.0</tempm>
+						<tempi>37.4</tempi>
+					
+						<dewptm>2.0</dewptm>
+						<dewpti>35.6</dewpti>
+					<hum>93</hum>
+					
+						<wspdm>11.1</wspdm>
+						<wspdi>6.9</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>230</wdird>
+					<wdire>SW</wdire>
+					
+						<vism>10.0</vism>
+						<visi>6.2</visi>
+					
+						<pressurem>1006</pressurem>
+						<pressurei>29.71</pressurei>
+					
+						<windchillm>0.0</windchillm>
+						<windchilli>32.1</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Mostly Cloudy</conds>
+					<icon>mostlycloudy</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 010820Z AUTO 23006KT 9999 FEW006 BKN095 03/02 Q1006]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>10:50 AM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>10</hour>
+						<min>50</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>8:50 AM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>08</hour>
+						<min>50</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>3.0</tempm>
+						<tempi>37.4</tempi>
+					
+						<dewptm>2.0</dewptm>
+						<dewpti>35.6</dewpti>
+					<hum>93</hum>
+					
+						<wspdm>13.0</wspdm>
+						<wspdi>8.1</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>230</wdird>
+					<wdire>SW</wdire>
+					
+						<vism>10.0</vism>
+						<visi>6.2</visi>
+					
+						<pressurem>1006</pressurem>
+						<pressurei>29.71</pressurei>
+					
+						<windchillm>-0.3</windchillm>
+						<windchilli>31.4</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Mostly Cloudy</conds>
+					<icon>mostlycloudy</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 010850Z AUTO 23007KT 9999 BKN005 BKN090 03/02 Q1006]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>11:00 AM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>11</hour>
+						<min>00</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>9:00 AM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>09</hour>
+						<min>00</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>2</tempm>
+						<tempi>36</tempi>
+					
+						<dewptm>2</dewptm>
+						<dewpti>36</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>10.8</wspdm>
+						<wspdi>6.7</wspdi>
+					
+						<wgustm></wgustm>
+						<wgusti></wgusti>
+					<wdird>230</wdird>
+					<wdire>SW</wdire>
+					
+						<vism>45</vism>
+						<visi>28</visi>
+					
+						<pressurem>1006</pressurem>
+						<pressurei>29.72</pressurei>
+					
+						<windchillm>-999</windchillm>
+						<windchilli>-999</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm></precipm>
+						<precipi></precipi>
+					<conds>Clear</conds>
+					<icon>clear</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[AAXX 01091 02944 47283 72303 10025 20022 39916 40063 700// 83/// 90900]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>11:20 AM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>11</hour>
+						<min>20</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>9:20 AM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>09</hour>
+						<min>20</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>3.0</tempm>
+						<tempi>37.4</tempi>
+					
+						<dewptm>3.0</dewptm>
+						<dewpti>37.4</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>9.3</wspdm>
+						<wspdi>5.8</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>230</wdird>
+					<wdire>SW</wdire>
+					
+						<vism>10.0</vism>
+						<visi>6.2</visi>
+					
+						<pressurem>1006</pressurem>
+						<pressurei>29.71</pressurei>
+					
+						<windchillm>0.5</windchillm>
+						<windchilli>32.8</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Overcast</conds>
+					<icon>cloudy</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 010920Z AUTO 23005KT 9999 SCT004 OVC006 03/03 Q1006]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>11:50 AM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>11</hour>
+						<min>50</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>9:50 AM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>09</hour>
+						<min>50</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>2.0</tempm>
+						<tempi>35.6</tempi>
+					
+						<dewptm>2.0</dewptm>
+						<dewpti>35.6</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>11.1</wspdm>
+						<wspdi>6.9</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>240</wdird>
+					<wdire>WSW</wdire>
+					
+						<vism>10.0</vism>
+						<visi>6.2</visi>
+					
+						<pressurem>1005</pressurem>
+						<pressurei>29.68</pressurei>
+					
+						<windchillm>-1.2</windchillm>
+						<windchilli>29.9</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Overcast</conds>
+					<icon>cloudy</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 010950Z AUTO 24006KT 9999 BKN002 OVC005 02/02 Q1005]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>12:20 PM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>12</hour>
+						<min>20</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>10:20 AM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>10</hour>
+						<min>20</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>2.0</tempm>
+						<tempi>35.6</tempi>
+					
+						<dewptm>2.0</dewptm>
+						<dewpti>35.6</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>16.7</wspdm>
+						<wspdi>10.4</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>230</wdird>
+					<wdire>SW</wdire>
+					
+						<vism>1.8</vism>
+						<visi>1.1</visi>
+					
+						<pressurem>1005</pressurem>
+						<pressurei>29.68</pressurei>
+					
+						<windchillm>-2.2</windchillm>
+						<windchilli>28.0</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Overcast</conds>
+					<icon>cloudy</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 011020Z AUTO 23009KT 1800 BR BKN001 OVC003 02/02 Q1005]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>12:50 PM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>12</hour>
+						<min>50</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>10:50 AM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>10</hour>
+						<min>50</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>1.0</tempm>
+						<tempi>33.8</tempi>
+					
+						<dewptm>1.0</dewptm>
+						<dewpti>33.8</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>16.7</wspdm>
+						<wspdi>10.4</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>220</wdird>
+					<wdire>SW</wdire>
+					
+						<vism>1.7</vism>
+						<visi>1.1</visi>
+					
+						<pressurem>1004</pressurem>
+						<pressurei>29.65</pressurei>
+					
+						<windchillm>-3.4</windchillm>
+						<windchilli>25.8</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Mist</conds>
+					<icon>hazy</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 011050Z AUTO 22009KT 1700 BR VV002 01/01 Q1004]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>1:20 PM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>13</hour>
+						<min>20</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>11:20 AM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>11</hour>
+						<min>20</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>1.0</tempm>
+						<tempi>33.8</tempi>
+					
+						<dewptm>1.0</dewptm>
+						<dewpti>33.8</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>18.5</wspdm>
+						<wspdi>11.5</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>240</wdird>
+					<wdire>WSW</wdire>
+					
+						<vism>0.8</vism>
+						<visi>0.5</visi>
+					
+						<pressurem>1004</pressurem>
+						<pressurei>29.65</pressurei>
+					
+						<windchillm>-3.7</windchillm>
+						<windchilli>25.3</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Fog</conds>
+					<icon>fog</icon>
+					<fog>1</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 011120Z AUTO 24010KT 0800 R24/1300U FG VV002 01/01 Q1004]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>1:50 PM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>13</hour>
+						<min>50</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>11:50 AM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>11</hour>
+						<min>50</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>1.0</tempm>
+						<tempi>33.8</tempi>
+					
+						<dewptm>1.0</dewptm>
+						<dewpti>33.8</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>20.4</wspdm>
+						<wspdi>12.7</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>230</wdird>
+					<wdire>SW</wdire>
+					
+						<vism>-9999.0</vism>
+						<visi>-9999.0</visi>
+					
+						<pressurem>1004</pressurem>
+						<pressurei>29.65</pressurei>
+					
+						<windchillm>-4.0</windchillm>
+						<windchilli>24.8</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Overcast</conds>
+					<icon>cloudy</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 011150Z AUTO 23011KT 3300 BR BKN001 OVC003 01/01 Q1004]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>2:00 PM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>14</hour>
+						<min>00</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>12:00 PM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>12</hour>
+						<min>00</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>1</tempm>
+						<tempi>33</tempi>
+					
+						<dewptm>1</dewptm>
+						<dewpti>33</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>14.4</wspdm>
+						<wspdi>8.9</wspdi>
+					
+						<wgustm></wgustm>
+						<wgusti></wgusti>
+					<wdird>230</wdird>
+					<wdire>SW</wdire>
+					
+						<vism>1.3</vism>
+						<visi>1</visi>
+					
+						<pressurem>1004</pressurem>
+						<pressurei>29.66</pressurei>
+					
+						<windchillm>-999</windchillm>
+						<windchilli>-999</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm></precipm>
+						<precipi></precipi>
+					<conds>Mist</conds>
+					<icon>hazy</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[AAXX 01121 02944 47113 82304 10007 20007 39896 40044 710// 88/// 91200]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>2:20 PM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>14</hour>
+						<min>20</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>12:20 PM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>12</hour>
+						<min>20</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>1.0</tempm>
+						<tempi>33.8</tempi>
+					
+						<dewptm>1.0</dewptm>
+						<dewpti>33.8</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>11.1</wspdm>
+						<wspdi>6.9</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>220</wdird>
+					<wdire>SW</wdire>
+					
+						<vism>-9999.0</vism>
+						<visi>-9999.0</visi>
+					
+						<pressurem>1003</pressurem>
+						<pressurei>29.62</pressurei>
+					
+						<windchillm>-2.4</windchillm>
+						<windchilli>27.7</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Fog</conds>
+					<icon>fog</icon>
+					<fog>1</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 011220Z AUTO 22006KT 0550 R24/1300D FG VV002 01/01 Q1003]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>2:50 PM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>14</hour>
+						<min>50</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>12:50 PM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>12</hour>
+						<min>50</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>1.0</tempm>
+						<tempi>33.8</tempi>
+					
+						<dewptm>1.0</dewptm>
+						<dewpti>33.8</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>11.1</wspdm>
+						<wspdi>6.9</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>210</wdird>
+					<wdire>SSW</wdire>
+					
+						<vism>0.3</vism>
+						<visi>0.2</visi>
+					
+						<pressurem>1003</pressurem>
+						<pressurei>29.62</pressurei>
+					
+						<windchillm>-2.4</windchillm>
+						<windchilli>27.7</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Fog</conds>
+					<icon>fog</icon>
+					<fog>1</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 011250Z AUTO 21006KT 0350 R24/0900U FG VV002 01/01 Q1003]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>3:20 PM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>15</hour>
+						<min>20</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>1:20 PM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>13</hour>
+						<min>20</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>1.0</tempm>
+						<tempi>33.8</tempi>
+					
+						<dewptm>1.0</dewptm>
+						<dewpti>33.8</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>14.8</wspdm>
+						<wspdi>9.2</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>220</wdird>
+					<wdire>SW</wdire>
+					
+						<vism>0.9</vism>
+						<visi>0.6</visi>
+					
+						<pressurem>1002</pressurem>
+						<pressurei>29.59</pressurei>
+					
+						<windchillm>-3.1</windchillm>
+						<windchilli>26.4</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Fog</conds>
+					<icon>fog</icon>
+					<fog>1</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 011320Z AUTO 22008KT 0900 FG VV002 01/01 Q1002]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>3:50 PM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>15</hour>
+						<min>50</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>1:50 PM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>13</hour>
+						<min>50</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>1.0</tempm>
+						<tempi>33.8</tempi>
+					
+						<dewptm>1.0</dewptm>
+						<dewpti>33.8</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>16.7</wspdm>
+						<wspdi>10.4</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>210</wdird>
+					<wdire>SSW</wdire>
+					
+						<vism>1.8</vism>
+						<visi>1.1</visi>
+					
+						<pressurem>1002</pressurem>
+						<pressurei>29.59</pressurei>
+					
+						<windchillm>-3.4</windchillm>
+						<windchilli>25.8</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Overcast</conds>
+					<icon>cloudy</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 011350Z AUTO 21009KT 1800 BR OVC002 01/01 Q1002]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>4:20 PM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>16</hour>
+						<min>20</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>2:20 PM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>14</hour>
+						<min>20</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>1.0</tempm>
+						<tempi>33.8</tempi>
+					
+						<dewptm>1.0</dewptm>
+						<dewpti>33.8</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>14.8</wspdm>
+						<wspdi>9.2</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>230</wdird>
+					<wdire>SW</wdire>
+					
+						<vism>1.1</vism>
+						<visi>0.7</visi>
+					
+						<pressurem>1002</pressurem>
+						<pressurei>29.59</pressurei>
+					
+						<windchillm>-3.1</windchillm>
+						<windchilli>26.4</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Overcast</conds>
+					<icon>cloudy</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 011420Z AUTO 23008KT 1100 BR OVC001 01/01 Q1002]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>4:50 PM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>16</hour>
+						<min>50</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>2:50 PM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>14</hour>
+						<min>50</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>1.0</tempm>
+						<tempi>33.8</tempi>
+					
+						<dewptm>1.0</dewptm>
+						<dewpti>33.8</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>13.0</wspdm>
+						<wspdi>8.1</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>210</wdird>
+					<wdire>SSW</wdire>
+					
+						<vism>1.6</vism>
+						<visi>1.0</visi>
+					
+						<pressurem>1002</pressurem>
+						<pressurei>29.59</pressurei>
+					
+						<windchillm>-2.8</windchillm>
+						<windchilli>27.0</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Overcast</conds>
+					<icon>cloudy</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 011450Z AUTO 21007KT 1600 BR VCSH OVC001 01/01 Q1002]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>5:00 PM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>17</hour>
+						<min>00</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>3:00 PM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>15</hour>
+						<min>00</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>1</tempm>
+						<tempi>34</tempi>
+					
+						<dewptm>1</dewptm>
+						<dewpti>34</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>14.4</wspdm>
+						<wspdi>8.9</wspdi>
+					
+						<wgustm></wgustm>
+						<wgusti></wgusti>
+					<wdird>220</wdird>
+					<wdire>SW</wdire>
+					
+						<vism>3.4</vism>
+						<visi>2</visi>
+					
+						<pressurem>1003</pressurem>
+						<pressurei>29.62</pressurei>
+					
+						<windchillm>-999</windchillm>
+						<windchilli>-999</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm></precipm>
+						<precipi></precipi>
+					<conds>Light Rain</conds>
+					<icon>rain</icon>
+					<fog>0</fog>
+					<rain>1</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[AAXX 01151 02944 47034 82204 10011 20011 39882 40030 761// 88/// 91500]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>5:20 PM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>17</hour>
+						<min>20</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>3:20 PM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>15</hour>
+						<min>20</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>1.0</tempm>
+						<tempi>33.8</tempi>
+					
+						<dewptm>1.0</dewptm>
+						<dewpti>33.8</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>13.0</wspdm>
+						<wspdi>8.1</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>210</wdird>
+					<wdire>SSW</wdire>
+					
+						<vism>6.0</vism>
+						<visi>3.7</visi>
+					
+						<pressurem>1002</pressurem>
+						<pressurei>29.59</pressurei>
+					
+						<windchillm>-2.8</windchillm>
+						<windchilli>27.0</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Light Rain</conds>
+					<icon>snow</icon>
+					<fog>0</fog>
+					<rain>1</rain>
+					<snow>1</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 011520Z AUTO 21007KT 6000 -RASN SCT001 BKN003CB 01/01 Q1002]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>5:50 PM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>17</hour>
+						<min>50</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>3:50 PM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>15</hour>
+						<min>50</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>1.0</tempm>
+						<tempi>33.8</tempi>
+					
+						<dewptm>1.0</dewptm>
+						<dewpti>33.8</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>11.1</wspdm>
+						<wspdi>6.9</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>220</wdird>
+					<wdire>SW</wdire>
+					
+						<vism>10.0</vism>
+						<visi>6.2</visi>
+					
+						<pressurem>1001</pressurem>
+						<pressurei>29.56</pressurei>
+					
+						<windchillm>-2.4</windchillm>
+						<windchilli>27.7</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Overcast</conds>
+					<icon>cloudy</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 011550Z AUTO 22006KT 9999 VCSH FEW003 OVC005 01/01 Q1001]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>6:20 PM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>18</hour>
+						<min>20</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>4:20 PM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>16</hour>
+						<min>20</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>1.0</tempm>
+						<tempi>33.8</tempi>
+					
+						<dewptm>1.0</dewptm>
+						<dewpti>33.8</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>11.1</wspdm>
+						<wspdi>6.9</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>210</wdird>
+					<wdire>SSW</wdire>
+					
+						<vism>10.0</vism>
+						<visi>6.2</visi>
+					
+						<pressurem>1001</pressurem>
+						<pressurei>29.56</pressurei>
+					
+						<windchillm>-2.4</windchillm>
+						<windchilli>27.7</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Overcast</conds>
+					<icon>cloudy</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 011620Z AUTO 21006KT 9999 BKN004 OVC006 01/01 Q1001]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>6:50 PM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>18</hour>
+						<min>50</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>4:50 PM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>16</hour>
+						<min>50</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>2.0</tempm>
+						<tempi>35.6</tempi>
+					
+						<dewptm>2.0</dewptm>
+						<dewpti>35.6</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>14.8</wspdm>
+						<wspdi>9.2</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>210</wdird>
+					<wdire>SSW</wdire>
+					
+						<vism>10.0</vism>
+						<visi>6.2</visi>
+					
+						<pressurem>1000</pressurem>
+						<pressurei>29.53</pressurei>
+					
+						<windchillm>-1.9</windchillm>
+						<windchilli>28.6</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Overcast</conds>
+					<icon>cloudy</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 011650Z AUTO 21008KT 9999 SCT003 OVC005 02/02 Q1000]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>7:20 PM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>19</hour>
+						<min>20</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>5:20 PM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>17</hour>
+						<min>20</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>2.0</tempm>
+						<tempi>35.6</tempi>
+					
+						<dewptm>2.0</dewptm>
+						<dewpti>35.6</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>13.0</wspdm>
+						<wspdi>8.1</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>200</wdird>
+					<wdire>SSW</wdire>
+					
+						<vism>10.0</vism>
+						<visi>6.2</visi>
+					
+						<pressurem>1000</pressurem>
+						<pressurei>29.53</pressurei>
+					
+						<windchillm>-1.5</windchillm>
+						<windchilli>29.2</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Overcast</conds>
+					<icon>cloudy</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 011720Z AUTO 20007KT 9999 FEW004 BKN006 OVC008 02/02 Q1000]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>7:50 PM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>19</hour>
+						<min>50</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>5:50 PM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>17</hour>
+						<min>50</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>2.0</tempm>
+						<tempi>35.6</tempi>
+					
+						<dewptm>2.0</dewptm>
+						<dewpti>35.6</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>14.8</wspdm>
+						<wspdi>9.2</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>220</wdird>
+					<wdire>SW</wdire>
+					
+						<vism>10.0</vism>
+						<visi>6.2</visi>
+					
+						<pressurem>1000</pressurem>
+						<pressurei>29.53</pressurei>
+					
+						<windchillm>-1.9</windchillm>
+						<windchilli>28.6</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Overcast</conds>
+					<icon>cloudy</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 011750Z AUTO 22008KT 9999 SCT005 OVC007 02/02 Q1000]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>8:00 PM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>20</hour>
+						<min>00</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>6:00 PM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>18</hour>
+						<min>00</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>2</tempm>
+						<tempi>35</tempi>
+					
+						<dewptm>2</dewptm>
+						<dewpti>35</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>14.4</wspdm>
+						<wspdi>8.9</wspdi>
+					
+						<wgustm></wgustm>
+						<wgusti></wgusti>
+					<wdird>220</wdird>
+					<wdire>SW</wdire>
+					
+						<vism>10</vism>
+						<visi>6</visi>
+					
+						<pressurem>1001</pressurem>
+						<pressurei>29.55</pressurei>
+					
+						<windchillm>-999</windchillm>
+						<windchilli>-999</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm></precipm>
+						<precipi></precipi>
+					<conds>Clear</conds>
+					<icon>clear</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[AAXX 01181 02944 47260 82204 10017 20017 39859 40006 700// 88/// 91800 333 10039 20007]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>8:20 PM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>20</hour>
+						<min>20</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>6:20 PM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>18</hour>
+						<min>20</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>2.0</tempm>
+						<tempi>35.6</tempi>
+					
+						<dewptm>2.0</dewptm>
+						<dewpti>35.6</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>18.5</wspdm>
+						<wspdi>11.5</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>230</wdird>
+					<wdire>SW</wdire>
+					
+						<vism>10.0</vism>
+						<visi>6.2</visi>
+					
+						<pressurem>1000</pressurem>
+						<pressurei>29.53</pressurei>
+					
+						<windchillm>-2.5</windchillm>
+						<windchilli>27.5</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Overcast</conds>
+					<icon>cloudy</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 011820Z AUTO 23010KT 9999 BKN005 OVC007 02/02 Q1000]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>8:50 PM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>20</hour>
+						<min>50</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>6:50 PM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>18</hour>
+						<min>50</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>2.0</tempm>
+						<tempi>35.6</tempi>
+					
+						<dewptm>2.0</dewptm>
+						<dewpti>35.6</dewpti>
+					<hum>100</hum>
+					
+						<wspdm>18.5</wspdm>
+						<wspdi>11.5</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>240</wdird>
+					<wdire>WSW</wdire>
+					
+						<vism>10.0</vism>
+						<visi>6.2</visi>
+					
+						<pressurem>1000</pressurem>
+						<pressurei>29.53</pressurei>
+					
+						<windchillm>-2.5</windchillm>
+						<windchilli>27.5</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Overcast</conds>
+					<icon>cloudy</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 011850Z AUTO 24010KT 9999 SCT005 OVC007 02/02 Q1000]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>9:20 PM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>21</hour>
+						<min>20</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>7:20 PM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>19</hour>
+						<min>20</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>3.0</tempm>
+						<tempi>37.4</tempi>
+					
+						<dewptm>2.0</dewptm>
+						<dewpti>35.6</dewpti>
+					<hum>93</hum>
+					
+						<wspdm>20.4</wspdm>
+						<wspdi>12.7</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>240</wdird>
+					<wdire>WSW</wdire>
+					
+						<vism>10.0</vism>
+						<visi>6.2</visi>
+					
+						<pressurem>1000</pressurem>
+						<pressurei>29.53</pressurei>
+					
+						<windchillm>-1.5</windchillm>
+						<windchilli>29.3</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Overcast</conds>
+					<icon>cloudy</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 011920Z AUTO 24011KT 9999 SCT006 OVC008 03/02 Q1000]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>9:50 PM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>21</hour>
+						<min>50</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>7:50 PM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>19</hour>
+						<min>50</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>3.0</tempm>
+						<tempi>37.4</tempi>
+					
+						<dewptm>2.0</dewptm>
+						<dewpti>35.6</dewpti>
+					<hum>93</hum>
+					
+						<wspdm>16.7</wspdm>
+						<wspdi>10.4</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>250</wdird>
+					<wdire>WSW</wdire>
+					
+						<vism>10.0</vism>
+						<visi>6.2</visi>
+					
+						<pressurem>999</pressurem>
+						<pressurei>29.50</pressurei>
+					
+						<windchillm>-1.0</windchillm>
+						<windchilli>30.3</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Overcast</conds>
+					<icon>cloudy</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 011950Z AUTO 25009KT 9999 SCT006 OVC008 03/02 Q0999]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>10:20 PM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>22</hour>
+						<min>20</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>8:20 PM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>20</hour>
+						<min>20</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>3.0</tempm>
+						<tempi>37.4</tempi>
+					
+						<dewptm>2.0</dewptm>
+						<dewpti>35.6</dewpti>
+					<hum>93</hum>
+					
+						<wspdm>16.7</wspdm>
+						<wspdi>10.4</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>250</wdird>
+					<wdire>WSW</wdire>
+					
+						<vism>10.0</vism>
+						<visi>6.2</visi>
+					
+						<pressurem>999</pressurem>
+						<pressurei>29.50</pressurei>
+					
+						<windchillm>-1.0</windchillm>
+						<windchilli>30.3</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Overcast</conds>
+					<icon>cloudy</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 012020Z AUTO 25009KT 9999 FEW006 BKN008 OVC010 03/02 Q0999]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>10:50 PM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>22</hour>
+						<min>50</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>8:50 PM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>20</hour>
+						<min>50</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>3.0</tempm>
+						<tempi>37.4</tempi>
+					
+						<dewptm>2.0</dewptm>
+						<dewpti>35.6</dewpti>
+					<hum>93</hum>
+					
+						<wspdm>16.7</wspdm>
+						<wspdi>10.4</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>260</wdird>
+					<wdire>West</wdire>
+					
+						<vism>10.0</vism>
+						<visi>6.2</visi>
+					
+						<pressurem>999</pressurem>
+						<pressurei>29.50</pressurei>
+					
+						<windchillm>-1.0</windchillm>
+						<windchilli>30.3</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Overcast</conds>
+					<icon>cloudy</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 012050Z AUTO 26009KT 220V290 9999 BKN007 OVC010 03/02 Q0999]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>11:00 PM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>23</hour>
+						<min>00</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>9:00 PM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>21</hour>
+						<min>00</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>3</tempm>
+						<tempi>37</tempi>
+					
+						<dewptm>2</dewptm>
+						<dewpti>36</dewpti>
+					<hum>95</hum>
+					
+						<wspdm>10.8</wspdm>
+						<wspdi>6.7</wspdi>
+					
+						<wgustm></wgustm>
+						<wgusti></wgusti>
+					<wdird>250</wdird>
+					<wdire>WSW</wdire>
+					
+						<vism>30</vism>
+						<visi>19</visi>
+					
+						<pressurem>999</pressurem>
+						<pressurei>29.51</pressurei>
+					
+						<windchillm>-999</windchillm>
+						<windchilli>-999</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm></precipm>
+						<precipi></precipi>
+					<conds>Clear</conds>
+					<icon>clear</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[AAXX 01211 02944 47380 82503 10027 20023 39846 49992 700// 88/// 92100]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>11:20 PM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>23</hour>
+						<min>20</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>9:20 PM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>21</hour>
+						<min>20</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>3.0</tempm>
+						<tempi>37.4</tempi>
+					
+						<dewptm>2.0</dewptm>
+						<dewpti>35.6</dewpti>
+					<hum>93</hum>
+					
+						<wspdm>16.7</wspdm>
+						<wspdi>10.4</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>240</wdird>
+					<wdire>WSW</wdire>
+					
+						<vism>10.0</vism>
+						<visi>6.2</visi>
+					
+						<pressurem>998</pressurem>
+						<pressurei>29.47</pressurei>
+					
+						<windchillm>-1.0</windchillm>
+						<windchilli>30.3</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Overcast</conds>
+					<icon>cloudy</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 012120Z AUTO 24009KT 9999 SCT007 BKN009 OVC011 03/02 Q0998]]></metar>
+					
+				</observation>
+			
+				<observation> 
+					<date>
+						<pretty>11:50 PM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>23</hour>
+						<min>50</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<utcdate>
+						<pretty>9:50 PM GMT on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>21</hour>
+						<min>50</min>
+						<tzname>UTC</tzname>
+					</utcdate>
+					
+						<tempm>3.0</tempm>
+						<tempi>37.4</tempi>
+					
+						<dewptm>2.0</dewptm>
+						<dewpti>35.6</dewpti>
+					<hum>93</hum>
+					
+						<wspdm>14.8</wspdm>
+						<wspdi>9.2</wspdi>
+					
+						<wgustm>-9999.0</wgustm>
+						<wgusti>-9999.0</wgusti>
+					<wdird>240</wdird>
+					<wdire>WSW</wdire>
+					
+						<vism>10.0</vism>
+						<visi>6.2</visi>
+					
+						<pressurem>998</pressurem>
+						<pressurei>29.47</pressurei>
+					
+						<windchillm>-0.7</windchillm>
+						<windchilli>30.8</windchilli>
+					
+						<heatindexm>-9999</heatindexm>
+						<heatindexi>-9999</heatindexi>
+					
+						<precipm>-9999.00</precipm>
+						<precipi>-9999.00</precipi>
+					<conds>Overcast</conds>
+					<icon>cloudy</icon>
+					<fog>0</fog>
+					<rain>0</rain>
+					<snow>0</snow>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					<metar><![CDATA[METAR EFTP 012150Z AUTO 24008KT 9999 FEW007 BKN009 OVC011 03/02 Q0998]]></metar>
+					
+				</observation>
+			
+		</observations>
+		<dailysummary>
+			
+				<summary>
+					<date>
+						<pretty>12:20 AM EET on January 01, 2015</pretty>
+						<year>2015</year>
+						<mon>01</mon>
+						<mday>01</mday>
+						<hour>00</hour>
+						<min>20</min>
+						<tzname>Europe/Helsinki</tzname>
+					</date>
+					<fog>1</fog>
+					<rain>1</rain>
+					<snow>1</snow>
+					
+						<snowfallm></snowfallm>
+						<snowfalli></snowfalli>
+					
+						<monthtodatesnowfallm></monthtodatesnowfallm>
+						<monthtodatesnowfalli></monthtodatesnowfalli>
+					
+						<since1julsnowfallm></since1julsnowfallm>
+						<since1julsnowfalli></since1julsnowfalli>
+					
+						<snowdepthm></snowdepthm>
+						<snowdepthi></snowdepthi>
+					<hail>0</hail>
+					<thunder>0</thunder>
+					<tornado>0</tornado>
+					
+						<meantempm>2</meantempm>
+						<meantempi>36</meantempi>
+					
+						<meandewptm>2</meandewptm>
+						<meandewpti>36</meandewpti>
+					
+						<meanpressurem>1004.34</meanpressurem>
+						<meanpressurei>29.66</meanpressurei>
+					
+						<meanwindspdm>13</meanwindspdm>
+						<meanwindspdi>8</meanwindspdi>
+					<meanwdire>SW</meanwdire>
+					<meanwdird>232</meanwdird>
+					
+						<meanvism>8.1</meanvism>
+						<meanvisi>5.0</meanvisi>
+					<humidity>97</humidity>
+					
+						<maxtempm>3</maxtempm>
+						<maxtempi>39</maxtempi>
+					
+						<mintempm>1</mintempm>
+						<mintempi>33</mintempi>
+					<maxhumidity>100</maxhumidity>
+					<minhumidity>86</minhumidity>
+					
+						<maxdewptm>4</maxdewptm>
+						<maxdewpti>39</maxdewpti>
+					
+						<mindewptm>1</mindewptm>
+						<mindewpti>33</mindewpti>
+					
+						<maxpressurem>1010</maxpressurem>
+						<maxpressurei>29.82</maxpressurei>
+					
+						<minpressurem>998</minpressurem>
+						<minpressurei>29.47</minpressurei>
+					
+						<maxwspdm>22</maxwspdm>
+						<maxwspdi>13</maxwspdi>
+					
+						<minwspdm>9</minwspdm>
+						<minwspdi>6</minwspdi>
+					
+						<maxvism>30.0</maxvism>
+						<maxvisi>19.0</maxvisi>
+					
+						<minvism>0.3</minvism>
+						<minvisi>0.2</minvisi>
+					<gdegreedays>0</gdegreedays>
+					<heatingdegreedays>29</heatingdegreedays>
+					<coolingdegreedays>0</coolingdegreedays>
+					
+						<precipm>0.0</precipm>
+						<precipi>0.00</precipi>
+					<precipsource>3Or6HourObs</precipsource>
+					<heatingdegreedaysnormal></heatingdegreedaysnormal>
+					<monthtodateheatingdegreedays></monthtodateheatingdegreedays>
+					<monthtodateheatingdegreedaysnormal></monthtodateheatingdegreedaysnormal>
+					<since1sepheatingdegreedays></since1sepheatingdegreedays>
+					<since1sepheatingdegreedaysnormal></since1sepheatingdegreedaysnormal>
+					<since1julheatingdegreedays></since1julheatingdegreedays>
+					<since1julheatingdegreedaysnormal></since1julheatingdegreedaysnormal>
+					<coolingdegreedaysnormal></coolingdegreedaysnormal>
+					<monthtodatecoolingdegreedays></monthtodatecoolingdegreedays>
+					<monthtodatecoolingdegreedaysnormal></monthtodatecoolingdegreedaysnormal>
+					<since1sepcoolingdegreedays></since1sepcoolingdegreedays>
+					<since1sepcoolingdegreedaysnormal></since1sepcoolingdegreedaysnormal>
+					<since1jancoolingdegreedays></since1jancoolingdegreedays>
+					<since1jancoolingdegreedaysnormal></since1jancoolingdegreedaysnormal>
+					
+				</summary>
+			
+		</dailysummary>
+	</history>
+
+        
+	
+	
+	
+	
+    
+    
+
+
+    
+    
+    
+    
+</response>
+	

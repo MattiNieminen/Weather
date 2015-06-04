@@ -1,0 +1,49 @@
+
+<response>
+	<version>0.1</version>
+	<termsofService>http://www.wunderground.com/weather/api/d/terms.html</termsofService>
+	<features>
+		<feature>history</feature>
+	</features>
+		<history>
+		<date>
+		<pretty></pretty>
+			<year></year>
+			<mon></mon>
+			<mday></mday>
+			<hour></hour>
+			<min></min>
+			<tzname></tzname>
+		</date>
+		<utcdate>
+			<pretty></pretty>
+			<year></year>
+			<mon></mon>
+			<mday></mday>
+			<hour></hour>
+			<min></min>
+			<tzname></tzname>
+		</utcdate>
+		<observations>
+			
+		</observations>
+		<dailysummary>
+			
+		</dailysummary>
+	</history>
+
+        
+	
+	
+	
+	
+    
+    
+
+
+    
+    
+    
+    
+</response>
+	
