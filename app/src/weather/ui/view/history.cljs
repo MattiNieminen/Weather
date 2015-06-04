@@ -20,7 +20,7 @@
 (defn error-view
   []
   [:div
-   [:h1 (tr :bad-request)]])
+   [:p (tr :bad-request)]])
 
 (defn weather-view
   [data]
@@ -30,5 +30,5 @@
         (= 200 (:status data))
         [weather-data-view (:body data)]
         
-        (not (:status data))
+        (not (= 200 (:status data)))
         [error-view]))
