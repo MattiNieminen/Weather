@@ -2,8 +2,7 @@
   (:require [schema.core :as s]
             [clojure.xml :as xml]
             [clojure.zip :as zip]
-            [weather.utils :as utils]
-            [ring.util.response :as response]))
+            [weather.utils :as utils]))
 
 (def CurrentWeather {:temp_c s/Num
                      :weather s/Str})
@@ -38,9 +37,8 @@
                   "/conditions/q/" city ".xml")))
 
 (defn get-weather
-  [{params :params wg-apikey :wg-apikey}]
-  (let [city (:city params)
-        wg-data (get-weather-from-wg wg-apikey city)]
+  [wg-apikey database city]
+  (let [wg-data (get-weather-from-wg wg-apikey city)]
     (if (wg-xml-has-data? wg-data)
-      (response/response (->CurrentWeather wg-data))
-      (response/status (response/response {}) 400))))
+      (->CurrentWeather wg-data)
+      {})))

@@ -4,7 +4,8 @@
             [weather.ui.index :as index]
             [compojure.route :as route]
             [weather.current-weather-api :as current-api]
-            [weather.weather-history-api :as history-api])
+            [weather.weather-history-api :as history-api]
+            [ring.util.response :as response])
   (:import [org.joda.time LocalDate]))
 
 (defapi app
@@ -22,16 +23,23 @@
   (context* "/api" []
     :tags ["API"]
     
-    (GET* "/weather/:city" []
+    (GET* "/weather/:city" request
       :summary "Gets current weather either from database (if exists) or
                 Wunderground."
-      :path-params [city :- s/Keyword]
+      :path-params [city :- s/Str]
       :return current-api/CurrentWeather
-      current-api/get-weather)
+     (response/response (current-api/get-weather
+                          (:wg-apikey request)
+                          (:database request)
+                          city)))
     
-    (GET* "/weather/:city/:date" []
+    (GET* "/weather/:city/:date" request
       :summary "Gets weather history either from database (if exists) or
                 Wunderground."
-      :path-params [city :- s/Keyword, date :- LocalDate]
+      :path-params [city :- s/Str, date :- LocalDate]
       :return history-api/WeatherHistory
-      history-api/get-weather)))
+      (response/response (history-api/get-weather
+                           (:wg-apikey request)
+                           (:database request)
+                           city
+                           date)))))

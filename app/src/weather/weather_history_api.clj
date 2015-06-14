@@ -3,8 +3,7 @@
             [clojure.xml :as xml]
             [clojure.zip :as zip]
             [clojure.string :as str]
-            [weather.utils :as utils]
-            [ring.util.response :as response]))
+            [weather.utils :as utils]))
 
 (def WeatherHistory {:fog s/Num
                      :rain s/Num
@@ -56,10 +55,8 @@
                   (str/replace date #"-" "") "/q/" city ".xml")))
 
 (defn get-weather
-  [{params :params wg-apikey :wg-apikey}]
-  (let [date (:date params)
-        city (:city params)
-        wg-data (get-weather-from-wg wg-apikey date city)]
+  [wg-apikey database city date]
+  (let [wg-data (get-weather-from-wg wg-apikey date city)]
     (if (wg-xml-has-data? wg-data)
-      (response/response (->WeatherHistory wg-data))
-      (response/status (response/response {}) 400))))
+      (->WeatherHistory wg-data)
+      {})))
