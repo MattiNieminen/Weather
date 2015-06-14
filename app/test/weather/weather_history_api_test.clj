@@ -23,17 +23,18 @@
 (deftest history-zipper-test
   (testing "Zipper finds the node that contains the weather data."
     (let [zipper-result (history-zipper history-xml)]
-      (is (= (second zipper-result)
-             {:tag :fog :attrs nil :content ["1"]}))
-      (is (= (nth zipper-result 28)
-             {:tag :maxtempm :attrs nil :content ["3"]})))))
+      (is (= {:tag :fog :attrs nil :content ["1"]}
+             (second zipper-result)))
+      (is (= {:tag :maxtempm :attrs nil :content ["3"]}
+             (nth zipper-result 28))))))
 
 (deftest ->WeatherHistory-test
   (testing "WeatherHistory is formed correctly."
-   (is (= (->WeatherHistory history-xml)
-          {:fog 1 :rain 1 :snow 1 :hail 0
-           :meantempm 2 :maxtempm 3 :mintempm 1}))))
+   (is (= {:fog 1 :rain 1 :snow 1 :hail 0
+           :meantempm 2 :maxtempm 3 :mintempm 1}
+          (->WeatherHistory history-xml)))))
 
+; APIKEY must be correct for this test to pass.
 (deftest get-weather-test
   (testing "Weather data is fetched from database if it exists."
    (is (mc/empty? database :weather-history))

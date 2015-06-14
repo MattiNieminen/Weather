@@ -15,12 +15,12 @@
 (deftest current-zipper-test
   (testing "Zipper finds the node that contains the weather data."
     (let [zipper-result (current-zipper current-xml)]
-      (is (= (nth zipper-result 13)
-             {:tag :weather, :attrs nil, :content ["Clear"]}))
-      (is (= (nth zipper-result 16)
-             {:tag :temp_c, :attrs nil, :content ["14.1"]})))))
+      (is (= {:tag :weather, :attrs nil, :content ["Clear"]}
+             (nth zipper-result 13)))
+      (is (= {:tag :temp_c, :attrs nil, :content ["14.1"]}
+             (nth zipper-result 16))))))
 
 (deftest ->CurrentWeather-test
   (testing "WeatherHistory is formed correctly."
-   (is (= (->CurrentWeather current-xml) {:weather "Clear", :temp_c 14.1}))
-   (is (= (->CurrentWeather empty-current-xml) {}))))
+   (is (= {:weather "Clear", :temp_c 14.1} (->CurrentWeather current-xml)))
+   (is (= {} (->CurrentWeather empty-current-xml)))))
