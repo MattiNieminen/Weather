@@ -13,7 +13,7 @@
     [:li (tr :lowest)
      [:strong (utils/->celsius-str (:mintempm weather-history-data))]]
     (if (> (:fog weather-history-data) 0) [:li (tr :fog)])
-    (if (> (:rain weather-history-data) 0) [:li (tr :rain)] [:h1])
+    (if (> (:rain weather-history-data) 0) [:li (tr :rain)])
     (if (> (:snow weather-history-data) 0) [:li (tr :snow)])
     (if (> (:hail weather-history-data) 0) [:li (tr :hail)])]])
 
