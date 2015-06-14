@@ -2,4 +2,4 @@
  :mongodb {:connection {:host "localhost"
                         :port 27017}
            :database "weather"}
- :wg-apikey "ca497f499aa559d7"}
+ :wg-apikey "NOT-PROPER-APIKEY"}
