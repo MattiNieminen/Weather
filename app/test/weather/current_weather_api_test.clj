@@ -1,8 +1,11 @@
 (ns weather.current-weather-api-test
   (:require [clojure.test :refer :all]
             [weather.current-weather-api :refer :all]
+            [weather.test-utils :as test-utils]
             [clojure.java.io :as io]
             [clojure.xml :as xml]))
+
+(use-fixtures :each test-utils/system-fixture)
 
 (def current-xml (xml/parse "resources/test/current.xml"))
 (def empty-current-xml (xml/parse "resources/test/empty_current.xml"))
