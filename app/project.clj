@@ -22,11 +22,12 @@
                  [cljs-http "0.1.31"]
                  [cljs-pikaday "0.1.1"]
                  [geo-clj "0.3.22"]]
-  :main ^:skip-aot weather.main
   :target-path "target/%s"
-  :profiles {:dev {:resource-paths ["target/dev"]
+  :profiles {:dev {:source-paths ["dev"]
+                   :resource-paths ["target/dev"]
                    :less {:target-path "target/dev/public/css"}}
-             :deploy {:resource-paths ["target/deploy"]
+             :deploy {:main weather.main
+                      :resource-paths ["target/deploy"]
                       :less {:target-path "target/deploy/public/css"}
                       :aot :all}}
   :plugins [[lein-cljsbuild "1.0.6"]
@@ -56,6 +57,6 @@
   :auto-clean false
   :uberjar-name "weather.jar"
   :aliases {"develop" ["do" "clean"
-                       ["pdo" ["less4j" "auto"] ["figwheel"] ["run"]]]
+                       ["pdo" ["less4j" "auto"] ["figwheel"]]]
             "build" ["with-profile" "deploy" "do" "clean"
                      ["less4j" "once"]["cljsbuild" "once" "deploy"] "uberjar"]})
