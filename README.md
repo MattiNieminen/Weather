@@ -15,16 +15,25 @@ for production deployment.
 
 ```bash
 # Download, install and run a virtualization environment for MongoDB.
-# Takes a while... make sure that Intel Virtualization techonology VT-d is on
+# Takes a while... make sure that Intel Virtualization techonology VT-d is on.
 vagrant up
 
 # In development, the above command starts MongoDB inside a Docker container
-# running inside a proxy virtual machine. The application should be run at
-# the host machine by running:
+# running inside a proxy virtual machine. The application should be run
+# separately at the host machine by running:
+cd app
+lein repl
+(go)
+
+# You can reset the backend (server, routes, etc) while in REPL
+(reset)
+
+# Keep figwheel and less4j running during development (in separate terminal).
 lein develop
 
 # The above command calls ClojureScript compiler, starts Figwheel and the
-# application itself. If you need an uberjar, then run:
+# application itself.
+# If you need an uberjar, then run:
 lein build
 
 # Tests are run normally.
